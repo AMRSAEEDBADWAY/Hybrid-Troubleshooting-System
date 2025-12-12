@@ -1,0 +1,1760 @@
+{
+    "rules": [
+        {
+            "id": "COMP_HEAT_001",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "fan_noise": "loud",
+                "hot_surface": true
+            },
+            "cause": "Dust accumulation in cooling system",
+            "solutions": [
+                "Clean dust from fans and vents using compressed air",
+                "Ensure proper ventilation around the computer",
+                "Check if fans are spinning correctly"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "تراكم الغبار في نظام التبريد",
+            "solutions_ar": [
+                "نظف الغبار من المراوح والفتحات باستخدام الهواء المضغوط",
+                "تأكد من التهوية المناسبة حول الكمبيوتر",
+                "تحقق من دوران المراوح بشكل صحيح"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_002",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "thermal_paste_old": true,
+                "high_cpu_temp": true
+            },
+            "cause": "Degraded thermal paste",
+            "solutions": [
+                "Replace thermal paste on CPU",
+                "Consider replacing thermal paste on GPU if applicable",
+                "Monitor temperatures after replacement"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "معجون حراري قديم",
+            "solutions_ar": [
+                "استبدل المعجون الحراري على المعالج",
+                "فكر في استبدال المعجون الحراري على كرت الشاشة إن أمكن",
+                "راقب درجات الحرارة بعد الاستبدال"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_003",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "poor_ventilation": true,
+                "enclosed_space": true
+            },
+            "cause": "Inadequate airflow",
+            "solutions": [
+                "Move computer to well-ventilated area",
+                "Add additional case fans",
+                "Consider installing a laptop cooling pad"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "تدفق هواء غير كافي",
+            "solutions_ar": [
+                "انقل الكمبيوتر لمنطقة جيدة التهوية",
+                "أضف مراوح إضافية للكيس",
+                "فكر في تركيب قاعدة تبريد للابتوب"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_004",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "high_cpu_usage": true,
+                "background_processes": "many"
+            },
+            "cause": "Excessive CPU load causing heat",
+            "solutions": [
+                "Close unnecessary background applications",
+                "Check for malware causing high CPU usage",
+                "Upgrade cooling solution if needed"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Excessive CPU load causing heat",
+            "solutions_ar": [
+                "Close unnecessary background applications",
+                "Check for malware causing high CPU usage",
+                "Upgrade cooling solution if needed"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_005",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "fan_not_working": true
+            },
+            "cause": "Fan failure",
+            "solutions": [
+                "Replace the faulty fan",
+                "Check fan connections to motherboard",
+                "Consider upgrading to better cooling solution"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Fan failure",
+            "solutions_ar": [
+                "Replace the faulty fan",
+                "Check fan connections to motherboard",
+                "Consider upgrading to better cooling solution"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_001",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "ram_usage": "high",
+                "low_ram": true
+            },
+            "cause": "Insufficient RAM",
+            "solutions": [
+                "Close memory-intensive applications",
+                "Upgrade RAM capacity",
+                "Disable startup programs"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Insufficient RAM",
+            "solutions_ar": [
+                "Close memory-intensive applications",
+                "Upgrade RAM capacity",
+                "Disable startup programs"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_002",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "hdd_type": "mechanical",
+                "disk_usage": "high"
+            },
+            "cause": "Slow mechanical hard drive",
+            "solutions": [
+                "Upgrade to SSD",
+                "Defragment hard drive",
+                "Clean up unnecessary files"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Slow mechanical hard drive",
+            "solutions_ar": [
+                "Upgrade to SSD",
+                "ألغِ تجزئة القرص الصلب",
+                "Clean up unnecessary files"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_003",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "malware_detected": true
+            },
+            "cause": "Malware infection",
+            "solutions": [
+                "Run full antivirus scan",
+                "Remove detected malware",
+                "Consider clean Windows installation"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Malware infection",
+            "solutions_ar": [
+                "Run full antivirus scan",
+                "Remove detected malware",
+                "Consider clean Windows installation"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_004",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "startup_programs": "many"
+            },
+            "cause": "Too many startup programs",
+            "solutions": [
+                "Disable unnecessary startup programs",
+                "Use Task Manager to manage startup items",
+                "Uninstall unused applications"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "برامج بدء تشغيل كثيرة جداً",
+            "solutions_ar": [
+                "عطّل برامج البدء غير الضرورية",
+                "Use Task Manager to manage startup items",
+                "Uninstall unused applications"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_005",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "os_outdated": true
+            },
+            "cause": "Outdated operating system",
+            "solutions": [
+                "Update Windows to latest version",
+                "Install pending updates",
+                "Consider clean installation if severely outdated"
+            ],
+            "confidence": 0.7,
+            "cause_ar": "نظام تشغيل قديم",
+            "solutions_ar": [
+                "Update Windows to latest version",
+                "Install pending updates",
+                "Consider clean installation if severely outdated"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_006",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "fragmented_disk": true,
+                "hdd_type": "mechanical"
+            },
+            "cause": "Fragmented hard drive",
+            "solutions": [
+                "Run disk defragmentation",
+                "Clean up temporary files",
+                "Consider SSD upgrade"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "تجزئة القرص الصلب",
+            "solutions_ar": [
+                "Run disk defragmentation",
+                "Clean up temporary files",
+                "Consider SSD upgrade"
+            ]
+        },
+        {
+            "id": "COMP_START_001",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "no_power": true,
+                "power_led": "off"
+            },
+            "cause": "Power supply failure or connection issue",
+            "solutions": [
+                "Check power cable connections",
+                "Test with different power outlet",
+                "Replace power supply unit"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Power supply failure or connection issue",
+            "solutions_ar": [
+                "Check power cable connections",
+                "Test with different power outlet",
+                "Replace power supply unit"
+            ]
+        },
+        {
+            "id": "COMP_START_002",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "beep_codes": true,
+                "no_display": true
+            },
+            "cause": "Hardware initialization failure",
+            "solutions": [
+                "Check RAM seating",
+                "Reseat graphics card",
+                "Consult beep code manual for motherboard"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Hardware initialization failure",
+            "solutions_ar": [
+                "Check RAM seating",
+                "Reseat graphics card",
+                "Consult beep code manual for motherboard"
+            ]
+        },
+        {
+            "id": "COMP_START_003",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "boot_loop": true
+            },
+            "cause": "Corrupted system files",
+            "solutions": [
+                "Boot into Safe Mode",
+                "Run startup repair",
+                "Restore from system restore point"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Corrupted system files",
+            "solutions_ar": [
+                "Boot into Safe Mode",
+                "Run startup repair",
+                "Restore from system restore point"
+            ]
+        },
+        {
+            "id": "COMP_START_004",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "black_screen": true,
+                "fans_running": true
+            },
+            "cause": "Display or graphics issue",
+            "solutions": [
+                "Check monitor connections",
+                "Try different display port",
+                "Reseat graphics card"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Display or graphics issue",
+            "solutions_ar": [
+                "Check monitor connections",
+                "Try different display port",
+                "Reseat graphics card"
+            ]
+        },
+        {
+            "id": "COMP_START_005",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "bios_not_loading": true
+            },
+            "cause": "BIOS corruption or CMOS battery failure",
+            "solutions": [
+                "Replace CMOS battery",
+                "Reset BIOS to defaults",
+                "Flash BIOS if possible"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "BIOS corruption or CMOS battery failure",
+            "solutions_ar": [
+                "Replace CMOS battery",
+                "Reset BIOS to defaults",
+                "Flash BIOS if possible"
+            ]
+        },
+        {
+            "id": "COMP_NET_001",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "wifi_not_showing": true,
+                "adapter_disabled": true
+            },
+            "cause": "WiFi adapter disabled",
+            "solutions": [
+                "Enable WiFi adapter in network settings",
+                "Check physical WiFi switch",
+                "Update network drivers"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "WiFi adapter disabled",
+            "solutions_ar": [
+                "Enable WiFi adapter in network settings",
+                "Check physical WiFi switch",
+                "Update network drivers"
+            ]
+        },
+        {
+            "id": "COMP_NET_002",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "dns_error": true
+            },
+            "cause": "DNS server issues",
+            "solutions": [
+                "Flush DNS cache (ipconfig /flushdns)",
+                "Change to Google DNS (8.8.8.8)",
+                "Restart router"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "DNS server issues",
+            "solutions_ar": [
+                "Flush DNS cache (ipconfig /flushdns)",
+                "Change to Google DNS (8.8.8.8)",
+                "أعد تشغيل الراوتر"
+            ]
+        },
+        {
+            "id": "COMP_NET_003",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "limited_connectivity": true
+            },
+            "cause": "IP address conflict or DHCP issue",
+            "solutions": [
+                "Release and renew IP address",
+                "Restart router",
+                "Check for IP conflicts"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "IP address conflict or DHCP issue",
+            "solutions_ar": [
+                "Release and renew IP address",
+                "أعد تشغيل الراوتر",
+                "Check for IP conflicts"
+            ]
+        },
+        {
+            "id": "COMP_NET_004",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "ethernet_no_connection": true
+            },
+            "cause": "Ethernet cable or port issue",
+            "solutions": [
+                "Check ethernet cable connections",
+                "Try different ethernet cable",
+                "Test different port on router"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Ethernet cable or port issue",
+            "solutions_ar": [
+                "Check ethernet cable connections",
+                "Try different ethernet cable",
+                "Test different port on router"
+            ]
+        },
+        {
+            "id": "COMP_NET_005",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "driver_outdated": true,
+                "network_type": "wifi"
+            },
+            "cause": "Outdated network drivers",
+            "solutions": [
+                "Update network adapter drivers",
+                "Reinstall network drivers",
+                "Download drivers from manufacturer"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "Outdated network drivers",
+            "solutions_ar": [
+                "Update network adapter drivers",
+                "Reinstall network drivers",
+                "Download drivers from manufacturer"
+            ]
+        },
+        {
+            "id": "COMP_NET_006",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "firewall_blocking": true
+            },
+            "cause": "Firewall blocking connection",
+            "solutions": [
+                "Check firewall settings",
+                "Add exception for application",
+                "Temporarily disable firewall to test"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Firewall blocking connection",
+            "solutions_ar": [
+                "Check firewall settings",
+                "Add exception for application",
+                "Temporarily disable firewall to test"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_001",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "flickering": true,
+                "refresh_rate_wrong": true
+            },
+            "cause": "Incorrect refresh rate settings",
+            "solutions": [
+                "Adjust refresh rate in display settings",
+                "Update graphics drivers",
+                "Check cable connection"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Incorrect refresh rate settings",
+            "solutions_ar": [
+                "Adjust refresh rate in display settings",
+                "Update graphics drivers",
+                "Check cable connection"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_002",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "dead_pixels": true
+            },
+            "cause": "Physical monitor defect",
+            "solutions": [
+                "Try pixel fixing software",
+                "Check warranty for replacement",
+                "Replace monitor if severe"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Physical monitor defect",
+            "solutions_ar": [
+                "Try pixel fixing software",
+                "Check warranty for replacement",
+                "Replace monitor if severe"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_003",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "no_display": true,
+                "external_monitor_works": true
+            },
+            "cause": "Laptop display cable issue",
+            "solutions": [
+                "Check display cable connection",
+                "Replace display cable",
+                "Check display in BIOS"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Laptop display cable issue",
+            "solutions_ar": [
+                "Check display cable connection",
+                "Replace display cable",
+                "Check display in BIOS"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_004",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "color_distortion": true
+            },
+            "cause": "Graphics driver or cable issue",
+            "solutions": [
+                "Update graphics drivers",
+                "Check/replace display cable",
+                "Calibrate monitor colors"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "Graphics driver or cable issue",
+            "solutions_ar": [
+                "Update graphics drivers",
+                "Check/replace display cable",
+                "Calibrate monitor colors"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_005",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "dim_display": true,
+                "brightness_max": true
+            },
+            "cause": "Backlight failure",
+            "solutions": [
+                "Replace backlight or inverter",
+                "Check brightness settings in BIOS",
+                "Replace display panel"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Backlight failure",
+            "solutions_ar": [
+                "Replace backlight or inverter",
+                "Check brightness settings in BIOS",
+                "Replace display panel"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_001",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "disk_full": true
+            },
+            "cause": "Low disk space",
+            "solutions": [
+                "Delete unnecessary files",
+                "Run Disk Cleanup utility",
+                "Move files to external storage"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Low disk space",
+            "solutions_ar": [
+                "Delete unnecessary files",
+                "Run Disk Cleanup utility",
+                "Move files to external storage"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_002",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "drive_not_detected": true
+            },
+            "cause": "Drive connection or failure",
+            "solutions": [
+                "Check SATA/power cable connections",
+                "Test drive in different computer",
+                "Check BIOS for drive detection"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Drive connection or failure",
+            "solutions_ar": [
+                "Check SATA/power cable connections",
+                "Test drive in different computer",
+                "Check BIOS for drive detection"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_003",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "slow_disk_access": true,
+                "disk_health": "poor"
+            },
+            "cause": "Failing hard drive",
+            "solutions": [
+                "Backup data immediately",
+                "Run disk health check (SMART)",
+                "Replace hard drive"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Failing hard drive",
+            "solutions_ar": [
+                "Backup data immediately",
+                "Run disk health check (SMART)",
+                "Replace hard drive"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_004",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "disk_read_errors": true
+            },
+            "cause": "Bad sectors on drive",
+            "solutions": [
+                "Run CHKDSK to repair",
+                "Backup important data",
+                "Consider drive replacement"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Bad sectors on drive",
+            "solutions_ar": [
+                "Run CHKDSK to repair",
+                "Backup important data",
+                "Consider drive replacement"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_005",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "usb_not_recognized": true
+            },
+            "cause": "USB drive or port issue",
+            "solutions": [
+                "Try different USB port",
+                "Update USB drivers",
+                "Check Device Manager for errors"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "USB drive or port issue",
+            "solutions_ar": [
+                "Try different USB port",
+                "Update USB drivers",
+                "Check Device Manager for errors"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_001",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "no_sound": true,
+                "muted": false
+            },
+            "cause": "Audio driver issue",
+            "solutions": [
+                "Update audio drivers",
+                "Reinstall audio drivers",
+                "Check default playback device"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Audio driver issue",
+            "solutions_ar": [
+                "Update audio drivers",
+                "Reinstall audio drivers",
+                "Check default playback device"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_002",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "crackling_audio": true
+            },
+            "cause": "Driver conflict or hardware issue",
+            "solutions": [
+                "Update audio drivers",
+                "Check speaker connections",
+                "Disable audio enhancements"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "Driver conflict or hardware issue",
+            "solutions_ar": [
+                "Update audio drivers",
+                "Check speaker connections",
+                "Disable audio enhancements"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_003",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "headphones_not_detected": true
+            },
+            "cause": "Audio jack or driver issue",
+            "solutions": [
+                "Check audio jack for debris",
+                "Update audio drivers",
+                "Test headphones elsewhere"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Audio jack or driver issue",
+            "solutions_ar": [
+                "Check audio jack for debris",
+                "Update audio drivers",
+                "Test headphones elsewhere"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_004",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "mic_not_working": true
+            },
+            "cause": "Microphone settings or driver issue",
+            "solutions": [
+                "Check microphone permissions",
+                "Set correct input device",
+                "Update audio drivers"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Microphone settings or driver issue",
+            "solutions_ar": [
+                "Check microphone permissions",
+                "Set correct input device",
+                "Update audio drivers"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_005",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "low_volume": true,
+                "volume_max": true
+            },
+            "cause": "Speaker or amplifier issue",
+            "solutions": [
+                "Check speaker connections",
+                "Test with different speakers",
+                "Check audio enhancements settings"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Speaker or amplifier issue",
+            "solutions_ar": [
+                "Check speaker connections",
+                "Test with different speakers",
+                "Check audio enhancements settings"
+            ]
+        },
+        {
+            "id": "COMP_BSOD_001",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "blue_screen": true,
+                "memory_error": true
+            },
+            "cause": "Faulty RAM",
+            "solutions": [
+                "Run Windows Memory Diagnostic",
+                "Reseat RAM modules",
+                "Test RAM sticks individually"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Faulty RAM",
+            "solutions_ar": [
+                "Run Windows Memory Diagnostic",
+                "Reseat RAM modules",
+                "Test RAM sticks individually"
+            ]
+        },
+        {
+            "id": "COMP_BSOD_002",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "blue_screen": true,
+                "driver_error": true
+            },
+            "cause": "Driver incompatibility",
+            "solutions": [
+                "Boot in Safe Mode",
+                "Roll back recent driver updates",
+                "Update all drivers"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Driver incompatibility",
+            "solutions_ar": [
+                "شغّل في الوضع الآمن",
+                "Roll back recent driver updates",
+                "Update all drivers"
+            ]
+        },
+        {
+            "id": "COMP_BSOD_003",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "blue_screen": true,
+                "disk_error": true
+            },
+            "cause": "Disk failure",
+            "solutions": [
+                "Run CHKDSK",
+                "Check disk health",
+                "Replace failing drive"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Disk failure",
+            "solutions_ar": [
+                "Run CHKDSK",
+                "Check disk health",
+                "Replace failing drive"
+            ]
+        },
+        {
+            "id": "COMP_HW_001",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "usb_ports_dead": true
+            },
+            "cause": "USB controller or motherboard issue",
+            "solutions": [
+                "Check USB settings in BIOS",
+                "Update USB drivers",
+                "Check for motherboard damage"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "USB controller or motherboard issue",
+            "solutions_ar": [
+                "Check USB settings in BIOS",
+                "Update USB drivers",
+                "Check for motherboard damage"
+            ]
+        },
+        {
+            "id": "COMP_HW_002",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "keyboard_not_working": true,
+                "external": false
+            },
+            "cause": "Laptop keyboard failure",
+            "solutions": [
+                "Check keyboard ribbon cable",
+                "Replace laptop keyboard",
+                "Use external keyboard temporarily"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Laptop keyboard failure",
+            "solutions_ar": [
+                "Check keyboard ribbon cable",
+                "Replace laptop keyboard",
+                "Use external keyboard temporarily"
+            ]
+        },
+        {
+            "id": "COMP_HW_003",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "graphics_artifacts": true
+            },
+            "cause": "Graphics card failure",
+            "solutions": [
+                "Check GPU temperatures",
+                "Reseat graphics card",
+                "Test with different GPU if available"
+            ],
+            "confidence": 0.87,
+            "cause_ar": "Graphics card failure",
+            "solutions_ar": [
+                "Check GPU temperatures",
+                "Reseat graphics card",
+                "Test with different GPU if available"
+            ]
+        },
+        {
+            "id": "COMP_HW_004",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "random_shutdowns": true,
+                "overheating": false
+            },
+            "cause": "Power supply instability",
+            "solutions": [
+                "Test with different PSU",
+                "Check power connections",
+                "Replace power supply"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Power supply instability",
+            "solutions_ar": [
+                "Test with different PSU",
+                "Check power connections",
+                "Replace power supply"
+            ]
+        },
+        {
+            "id": "COMP_HW_005",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "clicking_sounds": true,
+                "from_hdd": true
+            },
+            "cause": "Hard drive mechanical failure",
+            "solutions": [
+                "Backup data immediately",
+                "Replace hard drive",
+                "Do not power on if critical data"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Hard drive mechanical failure",
+            "solutions_ar": [
+                "Backup data immediately",
+                "Replace hard drive",
+                "Do not power on if critical data"
+            ]
+        },
+        {
+            "id": "COMP_APP_001",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "app_crashing": true,
+                "specific_app": true
+            },
+            "cause": "Application corruption or conflict",
+            "solutions": [
+                "Reinstall the application",
+                "Update to latest version",
+                "Run in compatibility mode"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Application corruption or conflict",
+            "solutions_ar": [
+                "Reinstall the application",
+                "Update to latest version",
+                "Run in compatibility mode"
+            ]
+        },
+        {
+            "id": "COMP_APP_002",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "all_apps_crashing": true
+            },
+            "cause": "System file corruption",
+            "solutions": [
+                "Run SFC /scannow",
+                "Run DISM repair",
+                "Consider system restore"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "System file corruption",
+            "solutions_ar": [
+                "Run SFC /scannow",
+                "Run DISM repair",
+                "Consider system restore"
+            ]
+        },
+        {
+            "id": "COMP_APP_003",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "games_crashing": true,
+                "graphics_related": true
+            },
+            "cause": "Graphics driver or DirectX issue",
+            "solutions": [
+                "Update graphics drivers",
+                "Reinstall DirectX",
+                "Verify game files integrity"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Graphics driver or DirectX issue",
+            "solutions_ar": [
+                "Update graphics drivers",
+                "Reinstall DirectX",
+                "Verify game files integrity"
+            ]
+        },
+        {
+            "id": "COMP_APP_004",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "browser_crashing": true
+            },
+            "cause": "Browser cache or extension issue",
+            "solutions": [
+                "Clear browser cache",
+                "Disable extensions",
+                "Reset browser settings"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Browser cache or extension issue",
+            "solutions_ar": [
+                "Clear browser cache",
+                "Disable extensions",
+                "Reset browser settings"
+            ]
+        },
+        {
+            "id": "COMP_BATT_001",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "computer",
+                "battery_drain_fast": true,
+                "laptop": true
+            },
+            "cause": "Battery degradation or power settings",
+            "solutions": [
+                "Check battery health in settings",
+                "Adjust power plan settings",
+                "Replace battery if old"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Battery degradation or power settings",
+            "solutions_ar": [
+                "Check battery health in settings",
+                "Adjust power plan settings",
+                "Replace battery if old"
+            ]
+        },
+        {
+            "id": "COMP_BATT_002",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "computer",
+                "not_charging": true,
+                "laptop": true
+            },
+            "cause": "Charger or charging port issue",
+            "solutions": [
+                "Check charger and cable",
+                "Clean charging port",
+                "Try different charger"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Charger or charging port issue",
+            "solutions_ar": [
+                "Check charger and cable",
+                "نظف منفذ الشحن",
+                "Try different charger"
+            ]
+        },
+        {
+            "id": "COMP_BATT_003",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "computer",
+                "battery_swollen": true
+            },
+            "cause": "Battery cell failure",
+            "solutions": [
+                "Stop using immediately",
+                "Replace battery safely",
+                "Dispose of old battery properly"
+            ],
+            "confidence": 0.98,
+            "cause_ar": "Battery cell failure",
+            "solutions_ar": [
+                "Stop using immediately",
+                "Replace battery safely",
+                "Dispose of old battery properly"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_006",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "gpu_hot": true,
+                "gaming": true
+            },
+            "cause": "GPU overheating under load",
+            "solutions": [
+                "Adjust GPU fan curve",
+                "Clean GPU heatsink",
+                "Reduce game graphics settings"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "GPU overheating under load",
+            "solutions_ar": [
+                "Adjust GPU fan curve",
+                "Clean GPU heatsink",
+                "Reduce game graphics settings"
+            ]
+        },
+        {
+            "id": "COMP_HEAT_007",
+            "category": "overheating",
+            "conditions": {
+                "device": "computer",
+                "laptop_bottom_hot": true
+            },
+            "cause": "Blocked laptop intake vents",
+            "solutions": [
+                "Use laptop on hard surface",
+                "Clean bottom vents",
+                "Use cooling pad"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Blocked laptop intake vents",
+            "solutions_ar": [
+                "Use laptop on hard surface",
+                "Clean bottom vents",
+                "Use cooling pad"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_007",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "slow_boot": true,
+                "hdd_old": true
+            },
+            "cause": "Aging mechanical hard drive",
+            "solutions": [
+                "Disable startup apps",
+                "Replace HDD with SSD",
+                "Check HDD health"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Aging mechanical hard drive",
+            "solutions_ar": [
+                "Disable startup apps",
+                "Replace HDD with SSD",
+                "Check HDD health"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_008",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "typing_delay": true
+            },
+            "cause": "High CPU usage or keylogger",
+            "solutions": [
+                "Check Task Manager for CPU hogs",
+                "Scan for malware",
+                "Update keyboard drivers"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "High CPU usage or keylogger",
+            "solutions_ar": [
+                "Check Task Manager for CPU hogs",
+                "Scan for malware",
+                "Update keyboard drivers"
+            ]
+        },
+        {
+            "id": "COMP_SLOW_009",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "computer",
+                "browser_slow": true
+            },
+            "cause": "Too many browser tabs/extensions",
+            "solutions": [
+                "Close unused tabs",
+                "Disable unused extensions",
+                "Clear browser cache"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Too many browser tabs/extensions",
+            "solutions_ar": [
+                "Close unused tabs",
+                "Disable unused extensions",
+                "Clear browser cache"
+            ]
+        },
+        {
+            "id": "COMP_NET_007",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "vpn_connected": true,
+                "no_internet": true
+            },
+            "cause": "VPN connection issue",
+            "solutions": [
+                "Disconnect VPN",
+                "Check VPN server status",
+                "Reinstall VPN client"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "VPN connection issue",
+            "solutions_ar": [
+                "Disconnect VPN",
+                "Check VPN server status",
+                "Reinstall VPN client"
+            ]
+        },
+        {
+            "id": "COMP_NET_008",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "weak_wifi_signal": true
+            },
+            "cause": "Distance from router or interference",
+            "solutions": [
+                "Move closer to router",
+                "Use 5GHz band if close, 2.4GHz if far",
+                "Install WiFi extender"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Distance from router or interference",
+            "solutions_ar": [
+                "Move closer to router",
+                "Use 5GHz band if close, 2.4GHz if far",
+                "Install WiFi extender"
+            ]
+        },
+        {
+            "id": "COMP_NET_009",
+            "category": "network_issues",
+            "conditions": {
+                "device": "computer",
+                "slow_download": true
+            },
+            "cause": "Bandwidth saturation",
+            "solutions": [
+                "Stop other downloads",
+                "Check router QoS settings",
+                "Run speed test"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "Bandwidth saturation",
+            "solutions_ar": [
+                "Stop other downloads",
+                "Check router QoS settings",
+                "Run speed test"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_006",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "sound_distorted": true,
+                "high_volume": true
+            },
+            "cause": "Speaker clipping or damage",
+            "solutions": [
+                "Lower volume",
+                "Adjust equalizer settings",
+                "Test with headphones to isolate issue"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Speaker clipping or damage",
+            "solutions_ar": [
+                "Lower volume",
+                "Adjust equalizer settings",
+                "Test with headphones to isolate issue"
+            ]
+        },
+        {
+            "id": "COMP_AUDIO_007",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "computer",
+                "hdmi_no_sound": true
+            },
+            "cause": "Wrong audio output device (HDMI)",
+            "solutions": [
+                "Select HDMI/TV as playback device",
+                "Update graphics drivers",
+                "Check HDMI cable"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Wrong audio output device (HDMI)",
+            "solutions_ar": [
+                "Select HDMI/TV as playback device",
+                "Update graphics drivers",
+                "Check HDMI cable"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_006",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "blurry_text": true
+            },
+            "cause": "Incorrect DPI scaling or resolution",
+            "solutions": [
+                "Adjust display scaling",
+                "Set resolution to 'Native'",
+                "Use ClearType text tuner"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Incorrect DPI scaling or resolution",
+            "solutions_ar": [
+                "Adjust display scaling",
+                "Set resolution to 'Native'",
+                "Use ClearType text tuner"
+            ]
+        },
+        {
+            "id": "COMP_SCREEN_007",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "computer",
+                "screen_tearing": true,
+                "games": true
+            },
+            "cause": "V-Sync disabled",
+            "solutions": [
+                "Enable V-Sync in game",
+                "Limit FPS to monitor refresh rate",
+                "Update GPU drivers"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "V-Sync disabled",
+            "solutions_ar": [
+                "Enable V-Sync in game",
+                "Limit FPS to monitor refresh rate",
+                "Update GPU drivers"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_006",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "cannot_copy_file": true,
+                "file_too_large": true
+            },
+            "cause": "FAT32 file system limitation",
+            "solutions": [
+                "Format drive to NTFS or exFAT",
+                "Split file into smaller parts",
+                "Use different drive"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "FAT32 file system limitation",
+            "solutions_ar": [
+                "Format drive to NTFS or exFAT",
+                "Split file into smaller parts",
+                "Use different drive"
+            ]
+        },
+        {
+            "id": "COMP_STORAGE_007",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "computer",
+                "ssd_slow": true
+            },
+            "cause": "TRIM not enabled or drive full",
+            "solutions": [
+                "Enable TRIM",
+                "Free up space (keep 10-20% free)",
+                "Update firmware"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "TRIM not enabled or drive full",
+            "solutions_ar": [
+                "Enable TRIM",
+                "Free up space (keep 10-20% free)",
+                "Update firmware"
+            ]
+        },
+        {
+            "id": "COMP_START_006",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "windows_update_loop": true
+            },
+            "cause": "Corrupted Windows Update",
+            "solutions": [
+                "Boot safe mode",
+                "Run Windows Update Troubleshooter",
+                "Delete SoftwareDistribution folder"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Corrupted Windows Update",
+            "solutions_ar": [
+                "Boot safe mode",
+                "Run Windows Update Troubleshooter",
+                "Delete SoftwareDistribution folder"
+            ]
+        },
+        {
+            "id": "COMP_START_007",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "computer",
+                "slow_boot_ssd": true
+            },
+            "cause": "Fast Startup bug or too many apps",
+            "solutions": [
+                "Disable Fast Startup",
+                "Check startup apps",
+                "Update chipset drivers"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Fast Startup bug or too many apps",
+            "solutions_ar": [
+                "Disable Fast Startup",
+                "Check startup apps",
+                "Update chipset drivers"
+            ]
+        },
+        {
+            "id": "COMP_APP_005",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "dll_missing_error": true
+            },
+            "cause": "Missing Visual C++ Redistributable",
+            "solutions": [
+                "Install Visual C++ Redistributable All-in-One",
+                "Reinstall program",
+                "Run CFC /scannow"
+            ],
+            "confidence": 0.92,
+            "cause_ar": "Missing Visual C++ Redistributable",
+            "solutions_ar": [
+                "Install Visual C++ Redistributable All-in-One",
+                "Reinstall program",
+                "Run CFC /scannow"
+            ]
+        },
+        {
+            "id": "COMP_APP_006",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "computer",
+                "office_crash": true
+            },
+            "cause": "Add-in conflict",
+            "solutions": [
+                "Start Office in Safe Mode",
+                "Disable add-ins",
+                "Repair Office installation"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Add-in conflict",
+            "solutions_ar": [
+                "Start Office in Safe Mode",
+                "Disable add-ins",
+                "Repair Office installation"
+            ]
+        },
+        {
+            "id": "COMP_BATT_004",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "computer",
+                "plugged_not_charging_high_pct": true
+            },
+            "cause": "Smart charging battery protection",
+            "solutions": [
+                "Check manufacturer battery settings",
+                "This is normal feature to extend life",
+                "Disable smart charging if 100% needed"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Smart charging battery protection",
+            "solutions_ar": [
+                "Check manufacturer battery settings",
+                "This is normal feature to extend life",
+                "Disable smart charging if 100% needed"
+            ]
+        },
+        {
+            "id": "COMP_BATT_005",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "computer",
+                "battery_report_needed": true
+            },
+            "cause": "Diagnostic request",
+            "solutions": [
+                "Run 'powercfg /batteryreport'",
+                "Check generated HTML report",
+                "Check charge cycle count"
+            ],
+            "confidence": 1.0,
+            "cause_ar": "Diagnostic request",
+            "solutions_ar": [
+                "Run 'powercfg /batteryreport'",
+                "Check generated HTML report",
+                "Check charge cycle count"
+            ]
+        },
+        {
+            "id": "COMP_HW_006",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "touchpad_not_working": true
+            },
+            "cause": "Touchpad disabled or driver issue",
+            "solutions": [
+                "Check function key toggle (Fn+F7 etc)",
+                "Check settings",
+                "Update drivers"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Touchpad disabled or driver issue",
+            "solutions_ar": [
+                "Check function key toggle (Fn+F7 etc)",
+                "Check settings",
+                "Update drivers"
+            ]
+        },
+        {
+            "id": "COMP_HW_007",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "printer_not_found": true
+            },
+            "cause": "Printer connection or spooler",
+            "solutions": [
+                "Restart Print Spooler service",
+                "Remove and re-add printer",
+                "Check USB/Network connection"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Printer connection or spooler",
+            "solutions_ar": [
+                "Restart Print Spooler service",
+                "Remove and re-add printer",
+                "Check USB/Network connection"
+            ]
+        },
+        {
+            "id": "COMP_HW_008",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "mouse_lag": true
+            },
+            "cause": "Interference or surface issue",
+            "solutions": [
+                "Use mousepad",
+                "Move receiver closer",
+                "Check mouse batteries"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Interference or surface issue",
+            "solutions_ar": [
+                "Use mousepad",
+                "Move receiver closer",
+                "Check mouse batteries"
+            ]
+        },
+        {
+            "id": "COMP_HW_009",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "webcam_black": true
+            },
+            "cause": "Privacy shutter or permissions",
+            "solutions": [
+                "Open privacy shutter",
+                "Check camera privacy settings",
+                "Check antivirus blocking camera"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Privacy shutter or permissions",
+            "solutions_ar": [
+                "Open privacy shutter",
+                "Check camera privacy settings",
+                "Check antivirus blocking camera"
+            ]
+        },
+        {
+            "id": "COMP_HW_010",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "coil_whine": true
+            },
+            "cause": "GPU/PSU electrical vibration",
+            "solutions": [
+                "Cap framerate (FPS)",
+                "Change PSU (if severe)",
+                "Normal phenomenon in high power GPUs"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "GPU/PSU electrical vibration",
+            "solutions_ar": [
+                "Cap framerate (FPS)",
+                "Change PSU (if severe)",
+                "Normal phenomenon in high power GPUs"
+            ]
+        },
+        {
+            "id": "COMP_BSOD_004",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "bsod_after_update": true
+            },
+            "cause": "Bad update",
+            "solutions": [
+                "Uninstall recent update",
+                "System Restore",
+                "Wait for patch"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Bad update",
+            "solutions_ar": [
+                "Uninstall recent update",
+                "System Restore",
+                "Wait for patch"
+            ]
+        },
+        {
+            "id": "COMP_BSOD_005",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "computer",
+                "bsod_whea_uncorrectable": true
+            },
+            "cause": "Hardware error (CPU/Voltage)",
+            "solutions": [
+                "Reset BIOS/Overclocking",
+                "Check CPU cooling",
+                "Test hardware stability"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Hardware error (CPU/Voltage)",
+            "solutions_ar": [
+                "Reset BIOS/Overclocking",
+                "Check CPU cooling",
+                "Test hardware stability"
+            ]
+        },
+        {
+            "id": "COMP_SEC_001",
+            "category": "security",
+            "conditions": {
+                "device": "computer",
+                "ransomware": true
+            },
+            "cause": "Ransomware infection",
+            "solutions": [
+                "Disconnect internet immediately",
+                "Do not pay ransom",
+                "Restore from offline backup"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Ransomware infection",
+            "solutions_ar": [
+                "Disconnect internet immediately",
+                "Do not pay ransom",
+                "Restore from offline backup"
+            ]
+        },
+        {
+            "id": "COMP_SEC_002",
+            "category": "security",
+            "conditions": {
+                "device": "computer",
+                "popups_everywhere": true
+            },
+            "cause": "Adware infection",
+            "solutions": [
+                "Run AdwCleaner",
+                "Reset browser settings",
+                "Check installed programs"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Adware infection",
+            "solutions_ar": [
+                "Run AdwCleaner",
+                "Reset browser settings",
+                "Check installed programs"
+            ]
+        },
+        {
+            "id": "COMP_SEC_003",
+            "category": "security",
+            "conditions": {
+                "device": "computer",
+                "account_hacked": true
+            },
+            "cause": "Compromised credentials",
+            "solutions": [
+                "Change passwords immediately on another device",
+                "Enable 2FA",
+                "Scan for keyloggers"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Compromised credentials",
+            "solutions_ar": [
+                "Change passwords immediately on another device",
+                "Enable 2FA",
+                "Scan for keyloggers"
+            ]
+        }
+    ]
+}

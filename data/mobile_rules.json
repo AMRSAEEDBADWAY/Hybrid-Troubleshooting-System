@@ -1,0 +1,1425 @@
+{
+    "rules": [
+        {
+            "id": "MOB_BATT_001",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_drain": "fast",
+                "screen_brightness": "high"
+            },
+            "cause": "High screen brightness draining battery",
+            "solutions": [
+                "Reduce screen brightness",
+                "Enable auto-brightness",
+                "Use dark mode"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "سطوع الشاشة العالي يستنزف البطارية",
+            "solutions_ar": [
+                "قلل سطوع الشاشة",
+                "فعّل السطوع التلقائي",
+                "استخدم الوضع الداكن"
+            ]
+        },
+        {
+            "id": "MOB_BATT_002",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_drain": "fast",
+                "background_apps": "many"
+            },
+            "cause": "Background apps consuming power",
+            "solutions": [
+                "Close unused background apps",
+                "Restrict background activity",
+                "Check battery usage in settings"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "التطبيقات في الخلفية تستهلك الطاقة",
+            "solutions_ar": [
+                "أغلق التطبيقات غير المستخدمة في الخلفية",
+                "حدد نشاط الخلفية",
+                "تحقق من استخدام البطارية في الإعدادات"
+            ]
+        },
+        {
+            "id": "MOB_BATT_003",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_drain": "fast",
+                "location_always_on": true
+            },
+            "cause": "GPS/Location services draining battery",
+            "solutions": [
+                "Disable location when not needed",
+                "Use battery saving location mode",
+                "Review app location permissions"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "خدمات GPS/الموقع تستنزف البطارية",
+            "solutions_ar": [
+                "أوقف الموقع عندما لا تحتاجه",
+                "استخدم وضع توفير البطارية للموقع",
+                "راجع صلاحيات الموقع للتطبيقات"
+            ]
+        },
+        {
+            "id": "MOB_BATT_004",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_old": true,
+                "phone_age": "over_2_years"
+            },
+            "cause": "Battery degradation due to age",
+            "solutions": [
+                "Check battery health",
+                "Replace battery",
+                "Consider device upgrade"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "تدهور البطارية بسبب العمر",
+            "solutions_ar": [
+                "تحقق من صحة البطارية",
+                "استبدل البطارية",
+                "فكر في ترقية الجهاز"
+            ]
+        },
+        {
+            "id": "MOB_BATT_005",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "charging_slow": true
+            },
+            "cause": "Faulty charger or cable",
+            "solutions": [
+                "Use original charger",
+                "Check cable for damage",
+                "Clean charging port"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "شاحن أو كابل معطل",
+            "solutions_ar": [
+                "استخدم الشاحن الأصلي",
+                "تحقق من تلف الكابل",
+                "نظف منفذ الشحن"
+            ]
+        },
+        {
+            "id": "MOB_BATT_006",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "not_charging": true
+            },
+            "cause": "Charging port or battery issue",
+            "solutions": [
+                "Clean charging port with soft brush",
+                "Try different cable/charger",
+                "Check for bent pins in port"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في منفذ الشحن أو البطارية",
+            "solutions_ar": [
+                "Clean charging port with soft brush",
+                "Try different cable/charger",
+                "Check for bent pins in port"
+            ]
+        },
+        {
+            "id": "MOB_BATT_007",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_swollen": true
+            },
+            "cause": "Battery cell failure - dangerous",
+            "solutions": [
+                "Stop using phone immediately",
+                "Do not charge",
+                "Get battery replaced by professional"
+            ],
+            "confidence": 0.98,
+            "cause_ar": "فشل خلية البطارية - خطر",
+            "solutions_ar": [
+                "Stop using phone immediately",
+                "Do not charge",
+                "Get battery replaced by professional"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_001",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "hot_while_charging": true
+            },
+            "cause": "Using phone while charging",
+            "solutions": [
+                "Avoid using phone while charging",
+                "Remove case while charging",
+                "Use original charger"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "استخدام الهاتف أثناء الشحن",
+            "solutions_ar": [
+                "تجنب استخدام الهاتف أثناء الشحن",
+                "أزل الجراب أثناء الشحن",
+                "استخدم الشاحن الأصلي"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_002",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "hot_during_games": true
+            },
+            "cause": "Heavy gaming causing overload",
+            "solutions": [
+                "Take gaming breaks",
+                "Lower graphics settings",
+                "Use gaming mode if available"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "الألعاب الثقيلة تسبب حمل زائد",
+            "solutions_ar": [
+                "خذ استراحات من الألعاب",
+                "قلل إعدادات الرسومات",
+                "استخدم وضع الألعاب إن وجد"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_003",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "hot_always": true,
+                "suspect_app": true
+            },
+            "cause": "Rogue app causing CPU overload",
+            "solutions": [
+                "Check battery usage for suspicious apps",
+                "Uninstall problematic apps",
+                "Boot in safe mode to test"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "تطبيق خبيث يسبب حمل زائد على المعالج",
+            "solutions_ar": [
+                "تحقق من استخدام البطارية للتطبيقات المشبوهة",
+                "احذف التطبيقات المسببة للمشاكل",
+                "شغّل في الوضع الآمن للاختبار"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_004",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "hot_in_sun": true
+            },
+            "cause": "Environmental heat exposure",
+            "solutions": [
+                "Keep phone out of direct sunlight",
+                "Remove case in hot weather",
+                "Avoid using in hot environments"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "التعرض للحرارة البيئية",
+            "solutions_ar": [
+                "أبعد الهاتف عن أشعة الشمس المباشرة",
+                "أزل الجراب في الطقس الحار",
+                "تجنب الاستخدام في البيئات الحارة"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_001",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "storage_full": true
+            },
+            "cause": "Low storage affecting performance",
+            "solutions": [
+                "Delete unused apps",
+                "Clear app caches",
+                "Move photos to cloud storage"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "المساحة المنخفضة تؤثر على الأداء",
+            "solutions_ar": [
+                "احذف التطبيقات غير المستخدمة",
+                "امسح ذاكرة التخزين المؤقت للتطبيقات",
+                "انقل الصور لتخزين سحابي"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_002",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "too_many_apps": true
+            },
+            "cause": "Too many apps installed",
+            "solutions": [
+                "Uninstall unused apps",
+                "Disable bloatware",
+                "Factory reset if severe"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "تطبيقات كثيرة جداً مثبتة",
+            "solutions_ar": [
+                "احذف التطبيقات غير المستخدمة",
+                "عطّل البرامج المثبتة مسبقاً",
+                "إعادة ضبط المصنع إذا كان شديداً"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_003",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "os_outdated": true
+            },
+            "cause": "Outdated operating system",
+            "solutions": [
+                "Update to latest OS version",
+                "Check for system updates",
+                "Clear system cache after update"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "نظام تشغيل قديم",
+            "solutions_ar": [
+                "حدّث لأحدث إصدار نظام",
+                "تحقق من تحديثات النظام",
+                "امسح ذاكرة النظام المؤقتة بعد التحديث"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_004",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "ram_low": true,
+                "many_apps_open": true
+            },
+            "cause": "RAM overloaded",
+            "solutions": [
+                "Close unused apps from recents",
+                "Restart device",
+                "Use lite versions of apps"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "الذاكرة العشوائية محملة بشكل زائد",
+            "solutions_ar": [
+                "أغلق التطبيقات غير المستخدمة من الأخيرة",
+                "أعد تشغيل الجهاز",
+                "استخدم النسخ الخفيفة من التطبيقات"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_005",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "animations_slow": true
+            },
+            "cause": "Animation effects slowing device",
+            "solutions": [
+                "Reduce animation scale in developer options",
+                "Disable transitions",
+                "Enable performance mode"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "تأثيرات الرسوم المتحركة تبطئ الجهاز",
+            "solutions_ar": [
+                "قلل مقياس الرسوم المتحركة في خيارات المطور",
+                "عطّل الانتقالات",
+                "فعّل وضع الأداء"
+            ]
+        },
+        {
+            "id": "MOB_NET_001",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "wifi_not_connecting": true
+            },
+            "cause": "WiFi authentication issue",
+            "solutions": [
+                "Forget and reconnect to network",
+                "Restart router",
+                "Check WiFi password"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "مشكلة في مصادقة WiFi",
+            "solutions_ar": [
+                "انسَ الشبكة وأعد الاتصال",
+                "أعد تشغيل الراوتر",
+                "تحقق من كلمة مرور WiFi"
+            ]
+        },
+        {
+            "id": "MOB_NET_002",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "mobile_data_not_working": true
+            },
+            "cause": "Mobile data settings issue",
+            "solutions": [
+                "Toggle airplane mode on/off",
+                "Reset network settings",
+                "Check APN settings"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "مشكلة في إعدادات بيانات الهاتف",
+            "solutions_ar": [
+                "شغّل/أوقف وضع الطيران",
+                "أعد ضبط إعدادات الشبكة",
+                "تحقق من إعدادات APN"
+            ]
+        },
+        {
+            "id": "MOB_NET_003",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "bluetooth_not_pairing": true
+            },
+            "cause": "Bluetooth pairing issue",
+            "solutions": [
+                "Remove device and pair again",
+                "Restart Bluetooth on both devices",
+                "Clear Bluetooth cache"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في اقتران البلوتوث",
+            "solutions_ar": [
+                "أزل الجهاز وأعد الاقتران",
+                "أعد تشغيل البلوتوث على كلا الجهازين",
+                "امسح ذاكرة البلوتوث المؤقتة"
+            ]
+        },
+        {
+            "id": "MOB_NET_004",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "no_signal": true
+            },
+            "cause": "SIM card or network issue",
+            "solutions": [
+                "Restart device",
+                "Reseat SIM card",
+                "Check for network outages"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "مشكلة في بطاقة SIM أو الشبكة",
+            "solutions_ar": [
+                "أعد تشغيل الجهاز",
+                "أعد تركيب بطاقة SIM",
+                "تحقق من انقطاعات الشبكة"
+            ]
+        },
+        {
+            "id": "MOB_NET_005",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "wifi_slow": true,
+                "signal_good": true
+            },
+            "cause": "DNS or router issue",
+            "solutions": [
+                "Change DNS to Google DNS",
+                "Restart router",
+                "Check for interference"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "مشكلة في DNS أو الراوتر",
+            "solutions_ar": [
+                "غيّر DNS لـ Google DNS",
+                "أعد تشغيل الراوتر",
+                "تحقق من التداخل"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_001",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "touch_not_responding": true
+            },
+            "cause": "Touch screen malfunction",
+            "solutions": [
+                "Clean screen surface",
+                "Remove screen protector",
+                "Restart device"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "خلل في شاشة اللمس",
+            "solutions_ar": [
+                "نظف سطح الشاشة",
+                "أزل واقي الشاشة",
+                "أعد تشغيل الجهاز"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_002",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "ghost_touches": true
+            },
+            "cause": "Screen digitizer issue",
+            "solutions": [
+                "Clean screen thoroughly",
+                "Check for screen damage",
+                "Get screen replaced"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "مشكلة في محول الشاشة الرقمي",
+            "solutions_ar": [
+                "Clean screen thoroughly",
+                "تحقق من تلف الشاشة",
+                "استبدل الشاشة"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_003",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "screen_flickering": true
+            },
+            "cause": "Display connector or software issue",
+            "solutions": [
+                "Restart device",
+                "Check for software updates",
+                "Get display checked"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "مشكلة في موصل الشاشة أو البرنامج",
+            "solutions_ar": [
+                "أعد تشغيل الجهاز",
+                "تحقق من تحديثات البرنامج",
+                "افحص الشاشة"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_004",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "screen_burn_in": true,
+                "oled_display": true
+            },
+            "cause": "OLED screen burn-in",
+            "solutions": [
+                "Use dark mode",
+                "Reduce screen timeout",
+                "Avoid static images for long time"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "احتراق الشاشة OLED",
+            "solutions_ar": [
+                "استخدم الوضع الداكن",
+                "قلل مهلة الشاشة",
+                "تجنب الصور الثابتة لفترة طويلة"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_005",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "auto_brightness_not_working": true
+            },
+            "cause": "Light sensor issue",
+            "solutions": [
+                "Clean sensor area",
+                "Check if covered by case",
+                "Reset display settings"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "مشكلة في مستشعر الضوء",
+            "solutions_ar": [
+                "نظف منطقة الحساس",
+                "تحقق إذا كان مغطى بالجراب",
+                "أعد ضبط إعدادات الشاشة"
+            ]
+        },
+        {
+            "id": "MOB_APP_001",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "app_crashing": true,
+                "app_outdated": true
+            },
+            "cause": "Outdated app version",
+            "solutions": [
+                "Update app from store",
+                "Clear app cache",
+                "Reinstall app"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "إصدار تطبيق قديم",
+            "solutions_ar": [
+                "حدّث التطبيق من المتجر",
+                "امسح ذاكرة التطبيق المؤقتة",
+                "أعد تثبيت التطبيق"
+            ]
+        },
+        {
+            "id": "MOB_APP_002",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "app_crashing": true,
+                "cache_corrupted": true
+            },
+            "cause": "Corrupted app cache",
+            "solutions": [
+                "Clear app cache",
+                "Clear app data",
+                "Reinstall app"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "ذاكرة تخزين مؤقت للتطبيق تالفة",
+            "solutions_ar": [
+                "امسح ذاكرة التطبيق المؤقتة",
+                "امسح بيانات التطبيق",
+                "أعد تثبيت التطبيق"
+            ]
+        },
+        {
+            "id": "MOB_APP_003",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "multiple_apps_crashing": true
+            },
+            "cause": "System issue or low memory",
+            "solutions": [
+                "Restart device",
+                "Free up storage",
+                "Clear system cache"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في النظام أو ذاكرة منخفضة",
+            "solutions_ar": [
+                "أعد تشغيل الجهاز",
+                "فرّغ مساحة التخزين",
+                "امسح ذاكرة النظام المؤقتة"
+            ]
+        },
+        {
+            "id": "MOB_APP_004",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "app_not_opening": true
+            },
+            "cause": "App installation issue",
+            "solutions": [
+                "Force stop and reopen",
+                "Clear app data",
+                "Uninstall and reinstall"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "مشكلة في تثبيت التطبيق",
+            "solutions_ar": [
+                "أوقف إجبارياً وأعد الفتح",
+                "امسح بيانات التطبيق",
+                "احذف وأعد التثبيت"
+            ]
+        },
+        {
+            "id": "MOB_APP_005",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "app_freezing": true,
+                "ram_low": true
+            },
+            "cause": "Insufficient RAM for app",
+            "solutions": [
+                "Close other apps",
+                "Restart device",
+                "Use lite version of app"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "ذاكرة عشوائية غير كافية للتطبيق",
+            "solutions_ar": [
+                "أغلق التطبيقات الأخرى",
+                "أعد تشغيل الجهاز",
+                "استخدم النسخة الخفيفة من التطبيق"
+            ]
+        },
+        {
+            "id": "MOB_STORAGE_001",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "mobile",
+                "storage_full_warning": true
+            },
+            "cause": "Phone storage full",
+            "solutions": [
+                "Delete old photos and videos",
+                "Clear app caches",
+                "Move files to cloud or SD card"
+            ],
+            "confidence": 0.92,
+            "cause_ar": "مساحة الهاتف ممتلئة",
+            "solutions_ar": [
+                "احذف الصور والفيديوهات القديمة",
+                "امسح ذاكرة التخزين المؤقت للتطبيقات",
+                "انقل الملفات للسحابة أو بطاقة SD"
+            ]
+        },
+        {
+            "id": "MOB_STORAGE_002",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "mobile",
+                "sd_card_not_detected": true
+            },
+            "cause": "SD card issue",
+            "solutions": [
+                "Reinsert SD card",
+                "Format SD card",
+                "Check for SD card damage"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في بطاقة SD",
+            "solutions_ar": [
+                "أعد إدخال بطاقة SD",
+                "هيئ بطاقة SD",
+                "تحقق من تلف بطاقة SD"
+            ]
+        },
+        {
+            "id": "MOB_STORAGE_003",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "mobile",
+                "cannot_download_apps": true,
+                "storage_low": true
+            },
+            "cause": "Insufficient storage for apps",
+            "solutions": [
+                "Uninstall unused apps",
+                "Clear download manager cache",
+                "Move apps to SD card if possible"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "مساحة تخزين غير كافية للتطبيقات",
+            "solutions_ar": [
+                "احذف التطبيقات غير المستخدمة",
+                "امسح ذاكرة مدير التحميلات المؤقتة",
+                "انقل التطبيقات لبطاقة SD إن أمكن"
+            ]
+        },
+        {
+            "id": "MOB_AUDIO_001",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "mobile",
+                "no_sound": true,
+                "not_silent_mode": true
+            },
+            "cause": "Speaker or audio settings issue",
+            "solutions": [
+                "Check volume settings",
+                "Restart device",
+                "Check Do Not Disturb settings"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "مشكلة في السماعة أو إعدادات الصوت",
+            "solutions_ar": [
+                "تحقق من إعدادات الصوت",
+                "أعد تشغيل الجهاز",
+                "تحقق من إعدادات عدم الإزعاج"
+            ]
+        },
+        {
+            "id": "MOB_AUDIO_002",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "mobile",
+                "earpiece_not_working": true
+            },
+            "cause": "Earpiece speaker issue",
+            "solutions": [
+                "Clean earpiece with soft brush",
+                "Check for debris",
+                "Get speaker checked"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "مشكلة في سماعة الأذن",
+            "solutions_ar": [
+                "نظف سماعة الأذن بفرشاة ناعمة",
+                "تحقق من الأوساخ",
+                "افحص السماعة"
+            ]
+        },
+        {
+            "id": "MOB_AUDIO_003",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "mobile",
+                "headphones_not_detected": true
+            },
+            "cause": "Headphone jack or Bluetooth issue",
+            "solutions": [
+                "Clean headphone jack",
+                "Check Bluetooth connection",
+                "Try different headphones"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في مقبس السماعات أو البلوتوث",
+            "solutions_ar": [
+                "نظف مقبس السماعات",
+                "تحقق من اتصال البلوتوث",
+                "جرب سماعات مختلفة"
+            ]
+        },
+        {
+            "id": "MOB_START_001",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "mobile",
+                "stuck_on_logo": true
+            },
+            "cause": "Boot loop or software corruption",
+            "solutions": [
+                "Force restart device",
+                "Boot into recovery mode",
+                "Factory reset if needed"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "حلقة إعادة تشغيل أو تلف في البرنامج",
+            "solutions_ar": [
+                "أعد تشغيل الجهاز إجبارياً",
+                "شغّل في وضع الاستعادة",
+                "إعادة ضبط المصنع إذا لزم الأمر"
+            ]
+        },
+        {
+            "id": "MOB_START_002",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "mobile",
+                "not_turning_on": true,
+                "battery_not_dead": true
+            },
+            "cause": "Software crash or hardware issue",
+            "solutions": [
+                "Perform hard reset (hold power + volume)",
+                "Connect to charger and wait",
+                "Get hardware checked"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "انهيار البرنامج أو مشكلة في الهاردوير",
+            "solutions_ar": [
+                "أجرِ إعادة تشغيل صعبة (اضغط الطاقة + الصوت)",
+                "وصّل بالشاحن وانتظر",
+                "افحص الهاردوير"
+            ]
+        },
+        {
+            "id": "MOB_START_003",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "mobile",
+                "restarting_randomly": true
+            },
+            "cause": "Software bug or faulty app",
+            "solutions": [
+                "Boot in safe mode",
+                "Uninstall recent apps",
+                "Update system software"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "خطأ برمجي أو تطبيق معطل",
+            "solutions_ar": [
+                "شغّل في الوضع الآمن",
+                "احذف التطبيقات الحديثة",
+                "حدّث برنامج النظام"
+            ]
+        },
+        {
+            "id": "MOB_HW_001",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "camera_not_working": true
+            },
+            "cause": "Camera app or hardware issue",
+            "solutions": [
+                "Clear camera app cache",
+                "Restart device",
+                "Check for hardware damage"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في تطبيق الكاميرا أو الهاردوير",
+            "solutions_ar": [
+                "امسح ذاكرة تطبيق الكاميرا المؤقتة",
+                "أعد تشغيل الجهاز",
+                "تحقق من تلف الهاردوير"
+            ]
+        },
+        {
+            "id": "MOB_HW_002",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "fingerprint_not_working": true
+            },
+            "cause": "Fingerprint sensor issue",
+            "solutions": [
+                "Clean sensor",
+                "Re-register fingerprints",
+                "Check for software updates"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "مشكلة في مستشعر البصمة",
+            "solutions_ar": [
+                "نظف الحساس",
+                "أعد تسجيل البصمات",
+                "تحقق من تحديثات البرنامج"
+            ]
+        },
+        {
+            "id": "MOB_HW_003",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "buttons_not_working": true
+            },
+            "cause": "Physical button failure",
+            "solutions": [
+                "Use accessibility features for on-screen buttons",
+                "Check for debris around buttons",
+                "Get buttons repaired"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "فشل الزر المادي",
+            "solutions_ar": [
+                "استخدم ميزات إمكانية الوصول للأزرار على الشاشة",
+                "تحقق من الأوساخ حول الأزرار",
+                "أصلح الأزرار"
+            ]
+        },
+        {
+            "id": "MOB_BATT_008",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "battery_drops_suddenly": true
+            },
+            "cause": "Battery calibration needed or dead cell",
+            "solutions": [
+                "Calibrate battery (0-100% cycle)",
+                "Replace battery",
+                "Check voltage"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "البطارية تحتاج معايرة أو خلية ميتة",
+            "solutions_ar": [
+                "Calibrate battery (0-100% cycle)",
+                "استبدل البطارية",
+                "Check voltage"
+            ]
+        },
+        {
+            "id": "MOB_BATT_009",
+            "category": "battery_issues",
+            "conditions": {
+                "device": "mobile",
+                "wireless_charging_fail": true
+            },
+            "cause": "Case too thick or misalignment",
+            "solutions": [
+                "Remove phone case",
+                "Align center of phone with pad",
+                "Check charger power"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "الجراب سميك جداً أو عدم محاذاة",
+            "solutions_ar": [
+                "Remove phone case",
+                "Align center of phone with pad",
+                "Check charger power"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_005",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "camera_overheat": true
+            },
+            "cause": "Extended high-res video recording",
+            "solutions": [
+                "Stop recording",
+                "Lower resolution/FPS",
+                "Remove case"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "تسجيل فيديو عالي الدقة لفترة طويلة",
+            "solutions_ar": [
+                "Stop recording",
+                "Lower resolution/FPS",
+                "Remove case"
+            ]
+        },
+        {
+            "id": "MOB_HEAT_006",
+            "category": "overheating",
+            "conditions": {
+                "device": "mobile",
+                "gps_nav_hot": true
+            },
+            "cause": "GPS + Screen + Data usage",
+            "solutions": [
+                "Place near AC vent",
+                "Turn off screen when not looking",
+                "Download offline maps"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "استخدام GPS + الشاشة + البيانات",
+            "solutions_ar": [
+                "Place near AC vent",
+                "Turn off screen when not looking",
+                "Download offline maps"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_006",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "keyboard_lag": true
+            },
+            "cause": "Keyboard app cache or dictionary issue",
+            "solutions": [
+                "Clear keyboard app cache",
+                "Reset keyboard dictionary",
+                "Try different keyboard app"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "مشكلة في ذاكرة التخزين المؤقت للوحة المفاتيح",
+            "solutions_ar": [
+                "Clear keyboard app cache",
+                "Reset keyboard dictionary",
+                "Try different keyboard app"
+            ]
+        },
+        {
+            "id": "MOB_SLOW_007",
+            "category": "slow_performance",
+            "conditions": {
+                "device": "mobile",
+                "camera_lag": true
+            },
+            "cause": "Camera app or storage speed",
+            "solutions": [
+                "Save to internal storage not SD",
+                "Clear camera cache",
+                "Restart device"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "تطبيق الكاميرا أو سرعة التخزين",
+            "solutions_ar": [
+                "Save to internal storage not SD",
+                "Clear camera cache",
+                "أعد تشغيل الجهاز"
+            ]
+        },
+        {
+            "id": "MOB_NET_006",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "calls_dropping": true
+            },
+            "cause": "Weak signal or carrier issue",
+            "solutions": [
+                "Enable WiFi calling",
+                "Check carrier settings update",
+                "Replace SIM card"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "إشارة ضعيفة أو مشكلة في الشبكة",
+            "solutions_ar": [
+                "Enable WiFi calling",
+                "Check carrier settings update",
+                "Replace SIM card"
+            ]
+        },
+        {
+            "id": "MOB_NET_007",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "hotspot_no_internet": true
+            },
+            "cause": "APN settings or data limit",
+            "solutions": [
+                "Check APN type for DUN",
+                "Check data plan limits",
+                "Use 2.4GHz band for compatibility"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "إعدادات APN أو حد البيانات",
+            "solutions_ar": [
+                "Check APN type for DUN",
+                "Check data plan limits",
+                "Use 2.4GHz band for compatibility"
+            ]
+        },
+        {
+            "id": "MOB_NET_008",
+            "category": "network_issues",
+            "conditions": {
+                "device": "mobile",
+                "nfc_not_working": true
+            },
+            "cause": "NFC off or sensor location",
+            "solutions": [
+                "Enable NFC in settings",
+                "Tap top/back of phone",
+                "Remove thick case"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "NFC مغلق أو موقع الحساس",
+            "solutions_ar": [
+                "Enable NFC in settings",
+                "Tap top/back of phone",
+                "Remove thick case"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_006",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "screen_rotation_fail": true
+            },
+            "cause": "Accelerometer stuck or rotation locked",
+            "solutions": [
+                "Unlock auto-rotation",
+                "Calibrate compass/sensors",
+                "Restart device"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Accelerometer stuck or rotation locked",
+            "solutions_ar": [
+                "Unlock auto-rotation",
+                "Calibrate compass/sensors",
+                "أعد تشغيل الجهاز"
+            ]
+        },
+        {
+            "id": "MOB_SCREEN_007",
+            "category": "screen_problems",
+            "conditions": {
+                "device": "mobile",
+                "proximity_sensor_issue": true
+            },
+            "cause": "Screen protector blocking sensor",
+            "solutions": [
+                "Remove screen protector",
+                "Clean top bezel area",
+                "Test sensor code"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Screen protector blocking sensor",
+            "solutions_ar": [
+                "أزل واقي الشاشة",
+                "Clean top bezel area",
+                "Test sensor code"
+            ]
+        },
+        {
+            "id": "MOB_APP_006",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "google_play_stop": true
+            },
+            "cause": "Play Services issue",
+            "solutions": [
+                "Clear Play Store cache",
+                "Clear Play Services data",
+                "Remove/Add Google Account"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Play Services issue",
+            "solutions_ar": [
+                "Clear Play Store cache",
+                "Clear Play Services data",
+                "Remove/Add Google Account"
+            ]
+        },
+        {
+            "id": "MOB_APP_007",
+            "category": "app_crashes",
+            "conditions": {
+                "device": "mobile",
+                "whatsapp_backup_stuck": true
+            },
+            "cause": "Network or Google Drive issue",
+            "solutions": [
+                "Check connection",
+                "Update Google Play Services",
+                "Clear WhatsApp cache"
+            ],
+            "confidence": 0.8,
+            "cause_ar": "Network or Google Drive issue",
+            "solutions_ar": [
+                "Check connection",
+                "Update Google Play Services",
+                "Clear WhatsApp cache"
+            ]
+        },
+        {
+            "id": "MOB_STORAGE_004",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "mobile",
+                "system_storage_huge": true
+            },
+            "cause": "Log files or cache accumulation",
+            "solutions": [
+                "Dial *#9900# (Samsung) to clear logs",
+                "Factory reset",
+                "Root access to clear log folder (advanced)"
+            ],
+            "confidence": 0.75,
+            "cause_ar": "Log files or cache accumulation",
+            "solutions_ar": [
+                "Dial *#9900# (Samsung) to clear logs",
+                "Factory reset",
+                "Root access to clear log folder (advanced)"
+            ]
+        },
+        {
+            "id": "MOB_STORAGE_005",
+            "category": "storage_issues",
+            "conditions": {
+                "device": "mobile",
+                "sd_card_corrupt": true
+            },
+            "cause": "Corrupted filesystem",
+            "solutions": [
+                "Format SD card in PC",
+                "CHKDSK repair",
+                "Replace SD card"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Corrupted filesystem",
+            "solutions_ar": [
+                "Format SD card in PC",
+                "CHKDSK repair",
+                "Replace SD card"
+            ]
+        },
+        {
+            "id": "MOB_AUDIO_004",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "mobile",
+                "mic_muffled": true
+            },
+            "cause": "Debris in mic hole",
+            "solutions": [
+                "Clean mic hole with needle gently",
+                "Remove case blockage",
+                "Record voice memo to test"
+            ],
+            "confidence": 0.88,
+            "cause_ar": "Debris in mic hole",
+            "solutions_ar": [
+                "Clean mic hole with needle gently",
+                "Remove case blockage",
+                "Record voice memo to test"
+            ]
+        },
+        {
+            "id": "MOB_AUDIO_005",
+            "category": "audio_problems",
+            "conditions": {
+                "device": "mobile",
+                "bluetooth_lag": true
+            },
+            "cause": "Codec latency",
+            "solutions": [
+                "Use gaming mode",
+                "Forget/Repair device",
+                "Check codec instructions"
+            ],
+            "confidence": 0.78,
+            "cause_ar": "Codec latency",
+            "solutions_ar": [
+                "Use gaming mode",
+                "Forget/Repair device",
+                "Check codec instructions"
+            ]
+        },
+        {
+            "id": "MOB_START_004",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "mobile",
+                "moisture_detected": true
+            },
+            "cause": "Wet charging port",
+            "solutions": [
+                "Dry port with fan",
+                "Wait 2-4 hours",
+                "Use wireless charging"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Wet charging port",
+            "solutions_ar": [
+                "Dry port with fan",
+                "Wait 2-4 hours",
+                "Use wireless charging"
+            ]
+        },
+        {
+            "id": "MOB_START_005",
+            "category": "startup_failure",
+            "conditions": {
+                "device": "mobile",
+                "fastboot_mode": true
+            },
+            "cause": "Volume button stuck",
+            "solutions": [
+                "Hold power button long press",
+                "Check volume buttons",
+                "Restart"
+            ],
+            "confidence": 0.9,
+            "cause_ar": "Volume button stuck",
+            "solutions_ar": [
+                "Hold power button long press",
+                "Check volume buttons",
+                "Restart"
+            ]
+        },
+        {
+            "id": "MOB_HW_004",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "vibra_not_working": true
+            },
+            "cause": "Vibration motor failure or settings",
+            "solutions": [
+                "Test in diagnostic menu",
+                "Check sound settings",
+                "Hardware repair"
+            ],
+            "confidence": 0.82,
+            "cause_ar": "Vibration motor failure or settings",
+            "solutions_ar": [
+                "Test in diagnostic menu",
+                "Check sound settings",
+                "Hardware repair"
+            ]
+        },
+        {
+            "id": "MOB_HW_005",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "face_unlock_fail": true
+            },
+            "cause": "Dirty camera or ambient light",
+            "solutions": [
+                "Clean front camera",
+                "Re-register face",
+                "Improve lighting"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "Dirty camera or ambient light",
+            "solutions_ar": [
+                "Clean front camera",
+                "Re-register face",
+                "Improve lighting"
+            ]
+        },
+        {
+            "id": "MOB_HW_006",
+            "category": "hardware_failure",
+            "conditions": {
+                "device": "mobile",
+                "sim_not_detected": true
+            },
+            "cause": "SIM damage or tray issue",
+            "solutions": [
+                "Clean SIM contacts",
+                "Try different SIM",
+                "Insert paper piece for pressure"
+            ],
+            "confidence": 0.85,
+            "cause_ar": "SIM damage or tray issue",
+            "solutions_ar": [
+                "Clean SIM contacts",
+                "Try different SIM",
+                "Insert paper piece for pressure"
+            ]
+        },
+        {
+            "id": "MOB_SEC_001",
+            "category": "security",
+            "conditions": {
+                "device": "mobile",
+                "random_ads": true
+            },
+            "cause": "Adware app",
+            "solutions": [
+                "Check recently installed apps",
+                "Use antivirus scan",
+                "Revoke 'Display over other apps' permission"
+            ],
+            "confidence": 0.92,
+            "cause_ar": "Adware app",
+            "solutions_ar": [
+                "Check recently installed apps",
+                "Use antivirus scan",
+                "Revoke 'Display over other apps' permission"
+            ]
+        },
+        {
+            "id": "MOB_SEC_002",
+            "category": "security",
+            "conditions": {
+                "device": "mobile",
+                "phone_remote_controlled": true
+            },
+            "cause": "Spyware or Accessibility abuse",
+            "solutions": [
+                "Factory reset immediately",
+                "Check Accessibility services",
+                "Disconnect internet"
+            ],
+            "confidence": 0.95,
+            "cause_ar": "Spyware or Accessibility abuse",
+            "solutions_ar": [
+                "Factory reset immediately",
+                "Check Accessibility services",
+                "Disconnect internet"
+            ]
+        }
+    ]
+}

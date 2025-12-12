@@ -1,0 +1,4004 @@
+{
+  "examples": [
+    {
+      "text": "محتاج مساعدة! الماوس مش شغال",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: system overheats when gaming please help",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, audio muffled can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "البرنامج مش بيستجيب محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "زر الباور مش شغال عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: البلوتوث مش شغال عايز حل",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: screen is flickering can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني مشكلة في الاقلاع ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: الجهاز واقف ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "من فضلك ساعدني الجهاز ساخن اوي محتاج مساعدة",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! ghost touch on screen can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "خطأ قراءة القرص",
+      "category": "storage_issues"
+    },
+    {
+      "text": "مشاكل العرض",
+      "category": "screen_problems"
+    },
+    {
+      "text": "شاشة سودا عند التشغيل محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: error when opening app what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "السماعات مش ظاهرة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الصوت بيقطع",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني الجهاز فيه عطل ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: audio quality bad",
+      "category": "audio_problems"
+    },
+    {
+      "text": "I have a problem: speaker crackling can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: power button not responding can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: microphone not working need help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "التراك باد فيه مشكلة ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: volume very low urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: error when opening app please help",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: شاشة سوداء عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! تهنيج مستمر ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: fingerprint not working what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "اللابتوب حار للمس ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "من فضلك ساعدني السماعة الداخلية مش شغالة ممكن تساعدني؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "البلوتوث مش شغال",
+      "category": "network_issues"
+    },
+    {
+      "text": "Issue: can't save files",
+      "category": "storage_issues"
+    },
+    {
+      "text": "المشكلة: كارت الشاشة بيسخن عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: screen goes black randomly need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الرام مش ظاهرة ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! الوان الشاشة غلط محتاج مساعدة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? screen brightness too dim what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "التطبيقات بطيئة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: buttons not responding please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Help! boot loop problem what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Can you help? apps keep crashing what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: the system gets very hot what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "the phone gets very hot",
+      "category": "overheating"
+    },
+    {
+      "text": "machine temperature warning",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! مشكلة التبريد في التابلت محتاج مساعدة",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: the computer gets very hot need help",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة في المازربورد",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: الديسبلاي فيه مشكلة ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "slow loading times",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: الدرايف مش ظاهر عايز حل",
+      "category": "storage_issues"
+    },
+    {
+      "text": "ساعدني الجهاز بطيء في التحميل ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني خط الموبايل مش شغال ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "mic not picking up voice can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المساحة خلصت",
+      "category": "storage_issues"
+    },
+    {
+      "text": "program crashes please help",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: system stuttering can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: DNS مش شغال ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "Please help, can't install apps please help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: الشحن بينزل فجأة ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "ساعدني المعالج حرارته مرتفعة عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! WiFi authentication failed what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? drive not mounting urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: no sound output urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! display not working",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: الشحن بينزل فجأة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "التطبيق مش بيستجيب ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Can you help? power drain on machine",
+      "category": "battery_issues"
+    },
+    {
+      "text": "network adapter issues",
+      "category": "network_issues"
+    },
+    {
+      "text": "Please help, WiFi drops frequently can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! SSD مش ظاهر محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "ساعدني SSD مش ظاهر ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "application freezes",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, touch not registering what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني مشاكل العرض عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "computer is lagging",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? app keeps closing urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: delayed response from computer can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني زر الباور مش شغال عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! عمر البطارية قصير عايز حل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: can't install apps urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "الابليكيشن بيوقع",
+      "category": "app_crashes"
+    },
+    {
+      "text": "endless reboot need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Issue: power supply failure please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الوايرلس فيه مشكلة",
+      "category": "network_issues"
+    },
+    {
+      "text": "machine overheats when gaming can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "fan spinning very fast can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: machine loses charge fast",
+      "category": "battery_issues"
+    },
+    {
+      "text": "disk space issue",
+      "category": "storage_issues"
+    },
+    {
+      "text": "app not opening",
+      "category": "app_crashes"
+    },
+    {
+      "text": "phone heats up quickly urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "hardware malfunction",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: mouse not working can you fix it?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: mobile data not working what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: charging port not working need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "can't get past boot what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Please help, WiFi signal weak urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? laptop stuck on logo can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "battery drains very fast",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: الصوت بيفصل ايه الحل؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "التطبيق مش بيفتح ضروري",
+      "category": "app_crashes"
+    },
+    {
+      "text": "من فضلك ساعدني الكمبيوتر مش بيفتح عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: الكمبيوتر بيطفي من الحرارة عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "low storage space",
+      "category": "storage_issues"
+    },
+    {
+      "text": "ساعدني شاشة سودا عند التشغيل ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني وميض في الشاشة ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "الميموري كارد مش شغالة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "headphones not detected",
+      "category": "audio_problems"
+    },
+    {
+      "text": "screen unresponsive",
+      "category": "screen_problems"
+    },
+    {
+      "text": "الكاميرا مش شغالة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "البطارية مش بتشحن",
+      "category": "battery_issues"
+    },
+    {
+      "text": "مفيش مساحة فاضية",
+      "category": "storage_issues"
+    },
+    {
+      "text": "ghost touch on screen need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني فشل في التشغيل ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: الواي فاي مش شغال عايز حل",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: النت بيفصل ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! failed to boot please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: battery swollen need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "ساعدني التخزين تالف ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "واقف على شاشة البوت",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: المساحة خلصت محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "الشبكة مش مستقرة",
+      "category": "network_issues"
+    },
+    {
+      "text": "Problem: display has dead pixels can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! بيفتح ويقفل لوحده محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! التطبيق بيفريز ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: مفيش صورة عند التشغيل ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Please help, system lag on device need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "error when opening app",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Help! phone is unresponsive urgent",
+      "category": "slow_performance"
+    },
+    {
+      "text": "app force closes",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Problem: app closes unexpectedly",
+      "category": "app_crashes"
+    },
+    {
+      "text": "software not responding",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: الباور سبلاي خربان ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Issue: endless reboot what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: الهارد ممتلي ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "program has stopped working",
+      "category": "app_crashes"
+    },
+    {
+      "text": "مشكلة حرارة في الحاسوب",
+      "category": "overheating"
+    },
+    {
+      "text": "اللابتوب بطيء جدا",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني الشاشة بترعش",
+      "category": "screen_problems"
+    },
+    {
+      "text": "no audio in videos",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: الرام مش ظاهرة ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? no sound output urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, power supply failure please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: ethernet not connecting need help",
+      "category": "network_issues"
+    },
+    {
+      "text": "Please help, RAM not recognized what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: التطبيق بيفريز محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: مش قادر انزل تطبيقات ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "خطأ قراءة القرص",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? can't access files need help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? speaker crackling what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! connection timeout can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "Problem: SD card not working",
+      "category": "storage_issues"
+    },
+    {
+      "text": "مفيش مساحة فاضية",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: السينسور مش شغال ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "ساعدني الشحن بينزل فجأة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "battery life terrible",
+      "category": "battery_issues"
+    },
+    {
+      "text": "can't install apps",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? audio static urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, audio cutting out can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? device is extremely slow can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "مشكلة في الشبكة",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: التخزين ممتلئ ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "extreme heat from system can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: كراش في البرنامج محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, won't boot up what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني الشاشة بتطفي لوحدها عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني حرارة الهاتف عالية ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "Issue: phone performance dropped please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الهاتف مش بيشتغل ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "browser freezing",
+      "category": "app_crashes"
+    },
+    {
+      "text": "الحاسوب بيطفي من الحرارة ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "الشاشة سودا عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "مش لاقي شبكات",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: charging is very slow please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "من فضلك ساعدني قطعة هاردوير خربانة ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: مشاكل الصوت محتاج مساعدة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المشكلة: الجهاز بياخد وقت يفتح",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الرام مش ظاهرة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Please help, blank screen urgent",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? software not responding what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "المشكلة: الهارد ممتلي ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: البطارية مش بتشحن",
+      "category": "battery_issues"
+    },
+    {
+      "text": "I have a problem: BIOS not loading need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: الاتصال بيقطع محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: زر الباور مش شغال",
+      "category": "startup_failure"
+    },
+    {
+      "text": "can't access internet what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "البطارية خربانة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! المروحة صوتها عالي في التابلت ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: blank screen",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, apps respond slowly please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: audio is crackling need help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني الاداء بقى سيء محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ethernet not connecting please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "Please help, storage running low please help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "DNS not responding please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني الرام مش ظاهرة ممكن تساعدني؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الهاتف بيطفي من الحرارة عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, lines on the screen urgent",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: Windows not starting can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: display colors wrong need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, battery health is bad",
+      "category": "battery_issues"
+    },
+    {
+      "text": "I have a problem: visual glitches can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, machine stuttering please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: زر الباور مش شغال ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: مفيش مساحة محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: can't find wireless networks please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! طقطقة في السماعة عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني النت بيفصل ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! شاشة سوداء",
+      "category": "screen_problems"
+    },
+    {
+      "text": "app keeps closing what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "external drive not recognized",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, physical damage please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "machine overheats when gaming",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! التليفون طفي ومش راضي يفتح ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "fan is making loud noise on my device",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة في المازربورد ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: اللمس مش بيشتغل محتاج مساعدة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني عطل في الهاردوير ممكن تساعدني؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: البطارية مش بتشحن ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: واي فاي مش بيتصل ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? apps respond slowly can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: internet keeps disconnecting what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "Issue: sound driver issues please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "محتاج مساعدة! التابلت ميت ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Can you help? clicking sounds from device please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "من فضلك ساعدني مش لاقي شبكات محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني الشاشة بتطفي لوحدها محتاج مساعدة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني الموبايل بطيء جدا عايز حل",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: graphics card not working please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "computer thermal throttling",
+      "category": "overheating"
+    },
+    {
+      "text": "computer heats up quickly",
+      "category": "overheating"
+    },
+    {
+      "text": "tablet not charging",
+      "category": "battery_issues"
+    },
+    {
+      "text": "battery percentage drops suddenly",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: الويندوز مش بيفتح عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! البطارية منتفخة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "من فضلك ساعدني خط الموبايل مش شغال ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! device freezes frequently need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: keyboard not responding please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? storage full warning what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "system performance dropped need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? system is sluggish urgent",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: my tablet is burning hot please help",
+      "category": "overheating"
+    },
+    {
+      "text": "won't boot up please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: disk read error urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Help! network error on machine can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: الجهاز فيه عطل ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Please help, SD card not working please help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "screen is flickering",
+      "category": "screen_problems"
+    },
+    {
+      "text": "البطارية مش بتشحن",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! اصلاح التشغيل فشل ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني البلوتوث مش شغال ايه الحل؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الشاشة بترعش ضروري",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, lines on the screen can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: الشاشة بترعش",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني اللعبة مش بتشتغل ضروري",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: software not responding",
+      "category": "app_crashes"
+    },
+    {
+      "text": "ساعدني خط الموبايل مش شغال ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: computer won't initialize what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Issue: sound distorted",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني التخزين تالف ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: USB ports not working what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "power supply failure",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج اشحن كل شوية",
+      "category": "battery_issues"
+    },
+    {
+      "text": "تمزق الصورة ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! battery replacement needed please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "اشارة الواي فاي ضعيفة عايز حل",
+      "category": "network_issues"
+    },
+    {
+      "text": "can't save files",
+      "category": "storage_issues"
+    },
+    {
+      "text": "أداء الحاسوب ضعيف",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: display has dead pixels please help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, endless reboot urgent",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني مشكلة التبريد في اللابتوب ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! sensor not working what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الدرايف مش بيعمل ماونت",
+      "category": "storage_issues"
+    },
+    {
+      "text": "power issues with phone",
+      "category": "battery_issues"
+    },
+    {
+      "text": "I have a problem: monitor flickering need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! زر الباور مش شغال محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: الابلكيشن بيقفل فجأة محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "ساعدني المايك مش بياخد صوت ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "application freezes can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: fan is making loud noise on my laptop urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! الصوت مكتوم محتاج مساعدة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المشكلة: اللابتوب مش بيفتح",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: عمر البطارية قصير عايز حل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: التليفون مش بيستجيب",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الموبايل مش سريع زي الاول",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني مشكلة مساحة القرص ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, phone performance dropped what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, charging is very slow please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة التبريد في التليفون ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "الرام مش ظاهرة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "DNS مش شغال",
+      "category": "network_issues"
+    },
+    {
+      "text": "application not responding",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! قطعة فشلت محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: monitor not showing anything need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "keyboard not responding what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: مشكلة في شحن الجهاز محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Can you help? app not opening urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: شاشة سودا عند التشغيل ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: الشحن بينزل فجأة ضروري",
+      "category": "battery_issues"
+    },
+    {
+      "text": "البرنامج توقف عن العمل ايه الحل؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "software error",
+      "category": "app_crashes"
+    },
+    {
+      "text": "screen is cracked",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني مش قادر احفظ ملفات ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "مشكلة اتصال",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني الشحن مش واصل ضروري",
+      "category": "battery_issues"
+    },
+    {
+      "text": "من فضلك ساعدني الجهاز مش بيستجيب ايه الحل؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "شاشة سودا عند التشغيل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ghost touch on screen",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: headphones not detected",
+      "category": "audio_problems"
+    },
+    {
+      "text": "مشكلة تخزين محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? my machine is burning hot can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "audio is crackling",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني مفيش مساحة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: تأخير في الصوت ايه الحل؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "الكمبيوتر لاج",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Help! no internet access please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: البطارية مش بتشحن ممكن تساعدني؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Issue: connection timeout can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "extreme heat from tablet can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! slow loading times what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: battery drains very fast",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Issue: hard drive failing urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: low storage space",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: phone loses charge fast can you fix it?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: no space left what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: program crashes what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Help! battery not holding charge what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الشاشة سودا",
+      "category": "screen_problems"
+    },
+    {
+      "text": "app malfunction",
+      "category": "app_crashes"
+    },
+    {
+      "text": "apps keep crashing what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "سماعة الكمبيوتر مش شغالة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "محتاج مساعدة! الهارد بيفشل عايز حل",
+      "category": "storage_issues"
+    },
+    {
+      "text": "I have a problem: audio cutting out please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: Windows not starting can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: machine hangs a lot please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Windows not starting need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: الهارد ممتلي ايه الحل؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "الصوت واطي",
+      "category": "audio_problems"
+    },
+    {
+      "text": "تهنيج مستمر",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? system lag on system what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: الشحن بطيء جدا ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الشبكة مش مستقرة",
+      "category": "network_issues"
+    },
+    {
+      "text": "power button not responding please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Help! audio static please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الشاشة مش بتستجيب ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني مفيش صوت في الفيديوهات ممكن تساعدني؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المشكلة: خطأ قراءة القرص",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: البلوتوث مش بيعمل باير ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! مفيش صوت في الفيديوهات ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! failed to boot urgent",
+      "category": "startup_failure"
+    },
+    {
+      "text": "blank screen",
+      "category": "screen_problems"
+    },
+    {
+      "text": "system performance dropped please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "مشكلة مساحة القرص محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "الهارد ممتلي ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Help! network adapter issues need help",
+      "category": "network_issues"
+    },
+    {
+      "text": "منافذ USB مش شغالة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "تحذير حرارة على الموبايل",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: كراش في البرنامج عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "الواي فاي مش شغال",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني الهارد ممتلي محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الصوت بيقطع محتاج مساعدة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: hard drive failing need help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? PC crashes from overheating urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: speaker crackling can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "storage problem what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "استاتيك في الصوت",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني كل حاجة بطيئة على التليفون ضروري",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: battery life terrible what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "ساعدني سرعة اللابتوب قلت ايه الحل؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, application freezes what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! الباور مش كويس محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! app keeps closing",
+      "category": "app_crashes"
+    },
+    {
+      "text": "the machine gets very hot",
+      "category": "overheating"
+    },
+    {
+      "text": "Can you help? speaker crackling can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: battery life terrible",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الحاسوب تقيل محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: السينسور مش شغال ممكن تساعدني؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الشحن مش واصل عايز حل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! التليفون طفي ومش راضي يفتح",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني النت بيفصل ايه الحل؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: التطبيقات بتقفل لوحدها",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, no display on startup what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "شاشة زرقا",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "التطبيق مش بيفتح",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Can you help? no audio in videos",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: screen is flickering can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "I have a problem: charging is very slow can you fix it?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: app won't load urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "no sound from speakers",
+      "category": "audio_problems"
+    },
+    {
+      "text": "خطأ قراءة القرص",
+      "category": "storage_issues"
+    },
+    {
+      "text": "التابلت بيعمل ثروتلينج",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: charging port not working what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "PC won't charge properly",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: الجهاز فيه عطل ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! مفيش صوت",
+      "category": "audio_problems"
+    },
+    {
+      "text": "محتاج مساعدة! مفيش صوت",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: خطوط على الشاشة ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "extreme heat from tablet need help",
+      "category": "overheating"
+    },
+    {
+      "text": "وميض في الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "صوت تشويش من السماعة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: مفيش صوت في الفيديوهات ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, device malfunction",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "no internet access",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! can't find wireless networks can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني واي فاي مش بيتصل ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "power button not responding",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Please help, motherboard issue",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Please help, long wait times on machine",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? fan is making loud noise on my PC need help",
+      "category": "overheating"
+    },
+    {
+      "text": "من فضلك ساعدني شاشة سودا عند التشغيل ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "phone temperature warning what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "PC loses charge fast",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! graphics card running hot urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "network adapter issues",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني طقطقة في السماعة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: وميض في الشاشة ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "المشكلة: البطء الشديد في التابلت ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "مش قادر احفظ ملفات ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "منفذ الشحن فيه مشكلة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: software not responding",
+      "category": "app_crashes"
+    },
+    {
+      "text": "storage running low urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: cellular data problems please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! computer turns off with battery left what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: my phone is very slow what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? heat issues with my laptop",
+      "category": "overheating"
+    },
+    {
+      "text": "can't install apps",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: محتاج اشحن كل شوية ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Please help, tablet shuts down due to heat",
+      "category": "overheating"
+    },
+    {
+      "text": "RAM not recognized",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Help! screen unresponsive need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! machine performance degraded urgent",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, won't boot up need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: speaker crackling what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: buttons not responding",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: low storage space what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الميموري كارد مش شغالة ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: drive not mounting",
+      "category": "storage_issues"
+    },
+    {
+      "text": "المشكلة: السينسور مش شغال ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: long wait times on laptop can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "المشكلة: التابلت مش بيفتح ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: واي فاي مش بيتصل ايه الحل؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? computer won't turn on please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني الدرايف مش ظاهر محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: battery percentage drops suddenly",
+      "category": "battery_issues"
+    },
+    {
+      "text": "screen brightness too dim can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "سرعة الهاتف قلت",
+      "category": "slow_performance"
+    },
+    {
+      "text": "مشاكل الصوت ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? speaker buzzing noise what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني الاداء بقى سيء عايز حل",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: device shuts down due to heat what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "lines on the screen",
+      "category": "screen_problems"
+    },
+    {
+      "text": "system is sluggish",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الشاحن مش شغال ضروري",
+      "category": "battery_issues"
+    },
+    {
+      "text": "صوت طقطقة من الموبايل",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: charging port not working urgent",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الباور مش كويس محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "التطبيق مش بيستجيب محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Problem: no sound from speakers",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: power supply failure urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: الابلكيشن بيقفل فجأة محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "من فضلك ساعدني التطبيق بيعمل فورس كلوز ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "ساعدني التطبيقات بطيئة محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! الجهاز ثقيل محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: السينسور مش شغال محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: صوت تشويش من السماعة ممكن تساعدني؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "حرارة المعالج فوق الطبيعي",
+      "category": "overheating"
+    },
+    {
+      "text": "Issue: clicking sounds from PC please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! الحاسوب مش بيشتغل محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Issue: display colors wrong please help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: app not opening what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Issue: display not working",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني قطعة فشلت ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الماوس مش شغال محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? tablet feels hot to touch",
+      "category": "overheating"
+    },
+    {
+      "text": "البايوس مش شغال",
+      "category": "startup_failure"
+    },
+    {
+      "text": "battery percentage drops suddenly please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الواي فاي مش شغال",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: النت بيفصل",
+      "category": "network_issues"
+    },
+    {
+      "text": "الكيبورد مش بيستجيب",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? display glitching need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: my computer is very slow can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "disk read error need help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "tablet turns off with battery left please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: البطارية مش ماسكة ممكن تساعدني؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "heat issues with my device please help",
+      "category": "overheating"
+    },
+    {
+      "text": "Can you help? battery depletes quickly can you fix it?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "I have a problem: no space left what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: ضرر فيزيائي محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "audio is crackling what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: graphics card running hot urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "الكمبيوتر ساخن جدا ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! مشكلة في الشبكة محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الحاسوب بيسخن جدا ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "الهارد ممتلي",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الكيبورد مش بيستجيب محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: system won't turn on need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Can you help? wireless connection unstable",
+      "category": "network_issues"
+    },
+    {
+      "text": "Issue: tablet battery dies quickly please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: machine feels hot to touch urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: hardware component failed what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: تحذير المساحة منخفضة ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, the PC gets very hot urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "المشكلة: محتاج اشحن كل شوية ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "البطارية منتفخة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: منافذ USB مش شغالة عايز حل",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: تهنيج مستمر",
+      "category": "slow_performance"
+    },
+    {
+      "text": "من فضلك ساعدني البطء الشديد في الجهاز",
+      "category": "slow_performance"
+    },
+    {
+      "text": "I have a problem: hot air from machine vents can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, phone hangs a lot what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! النت بطيء ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "power supply failure",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الحاسوب بيهنج كتير",
+      "category": "slow_performance"
+    },
+    {
+      "text": "network keeps dropping",
+      "category": "network_issues"
+    },
+    {
+      "text": "كارت الشاشة مش شغال ممكن تساعدني؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "التطبيق بيفريز عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, WiFi signal weak please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? system dead need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "التهوية مش كويسة ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "Can you help? no sound output",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! computer not charging what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: الشبكة مش مستقرة محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني الكيبورد مش بيستجيب عايز حل",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: رسالة خطأ لما بفتح التطبيق محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة في الشبكة ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الاتصال بيقطع عايز حل",
+      "category": "network_issues"
+    },
+    {
+      "text": "Please help, screen brightness too dim urgent",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني مشكلة اتصال ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! Bluetooth won't pair urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "WiFi authentication failed what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "الشاشة مش بتستجيب",
+      "category": "screen_problems"
+    },
+    {
+      "text": "كراش في البرنامج ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Problem: sound driver issues",
+      "category": "audio_problems"
+    },
+    {
+      "text": "محتاج مساعدة! الباور سبلاي خربان",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Help! startup repair failed need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! الابلكيشن بيقفل فجأة ايه الحل؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "تأخير في الصوت",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? performance issues on system need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: منافذ USB مش شغالة ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الجهاز واقف عايز حل",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عطل في الهاردوير",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "ساعدني الجهاز مش راضي يفتح ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: عطل في الهاردوير محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "اصلاح التشغيل فشل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: الحاسوب ساخن اوي",
+      "category": "overheating"
+    },
+    {
+      "text": "program has stopped working",
+      "category": "app_crashes"
+    },
+    {
+      "text": "app won't load",
+      "category": "app_crashes"
+    },
+    {
+      "text": "من فضلك ساعدني فيه نقط ميتة في الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! system lag on computer please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: speaker crackling can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "الحاسوب مش بيشحن",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الشاشة بتطفي لوحدها ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: الميموري كارد مش شغالة ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "hardware component failed need help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "extreme heat from system",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: wireless connection unstable can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "مشكلة في المازربورد محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "وميض في الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "stuck on boot screen",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني الكمبيوتر بيطفي من الحرارة",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: التطبيقات بتقفل لوحدها ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "التابلت بيطفي من الحرارة",
+      "category": "overheating"
+    },
+    {
+      "text": "التطبيقات بتقفل لوحدها",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Issue: machine running slowly",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Help! buttons not responding need help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? can't find wireless networks please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: system is sluggish",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! لمسات وهمية على الشاشة محتاج مساعدة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "machine stuck on logo",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني البرنامج توقف عن العمل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "ساعدني الكمبيوتر سخونته زيادة ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, audio delay can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: program crashes can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "المتصفح بيهنج ايه الحل؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Problem: computer not powering on",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: machine turns off with battery left urgent",
+      "category": "battery_issues"
+    },
+    {
+      "text": "من فضلك ساعدني الجهاز واقف ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: الشاشة باهتة عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! الوان الشاشة غلط",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الصوت واطي عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: apps respond slowly can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "عندي مشكلة: الميموري كارد مش شغالة ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: الهارد بيفشل ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "من فضلك ساعدني صوت طقطقة من الكمبيوتر ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "مشكلة تخزين",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! كراش في البرنامج محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: can't connect to WiFi urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "Issue: storage running low",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: اللابتوب ميت ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: أداء التليفون ضعيف محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "البلوتوث مش بيعمل باير عايز حل",
+      "category": "network_issues"
+    },
+    {
+      "text": "الاتصال بيقطع ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! hot air from tablet vents need help",
+      "category": "overheating"
+    },
+    {
+      "text": "Can you help? device feels hot to touch",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! مش لاقي شبكات ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "البطارية منتفخة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Can you help? power supply failure",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الكيبورد مش بيستجيب",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Issue: fan spinning very fast what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "earpiece not working",
+      "category": "audio_problems"
+    },
+    {
+      "text": "I have a problem: screen is cracked need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? software crashes on startup what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! اللمس مش بيشتغل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني اللعبة مش بتشتغل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Issue: laptop feels hot to touch",
+      "category": "overheating"
+    },
+    {
+      "text": "عندي مشكلة: حرارة المعالج فوق الطبيعي ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! التابلت واقف على اللوجو ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "physical damage what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: phone is lagging can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "PC takes long to boot",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, headphones not detected need help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "audio cutting out",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: SD card not working what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "audio muffled",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: SD card not working",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عطل في التطبيق",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, RAM not recognized urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الصوت مشوش",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني التطبيق بيقف ضروري",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: need to charge constantly can you fix it?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "التابلت بيطفي من الحرارة عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "monitor not showing anything",
+      "category": "screen_problems"
+    },
+    {
+      "text": "program crashes need help",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, display has dead pixels need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "tablet is lagging",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Help! hard drive full what should I do?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: lines on the screen",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! الهاتف مش بيفتح",
+      "category": "startup_failure"
+    },
+    {
+      "text": "hard drive failing can you fix it?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "app not opening",
+      "category": "app_crashes"
+    },
+    {
+      "text": "can't access internet",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: خطأ هاردوير عايز حل",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "error when opening app can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! التطبيق بيقف ايه الحل؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Issue: DNS not responding please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني شاشة سوداء عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "SSD not detected",
+      "category": "storage_issues"
+    },
+    {
+      "text": "wireless connection unstable please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: earpiece not working",
+      "category": "audio_problems"
+    },
+    {
+      "text": "سرعة اللابتوب قلت ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Help! sensor not working urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? WiFi authentication failed please help",
+      "category": "network_issues"
+    },
+    {
+      "text": "screen goes black randomly",
+      "category": "screen_problems"
+    },
+    {
+      "text": "المشكلة: الباور سبلاي خربان",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! المايك مش بياخد صوت عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "overheating problem on computer",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: screen is cracked can you fix it?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "network error on phone what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: الموبايل بياخد وقت يفتح ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "failed to boot",
+      "category": "startup_failure"
+    },
+    {
+      "text": "network error on machine",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! need to charge constantly",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! system won't start please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! الشاشة مش بتظهر حاجة ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "توقف عند بداية التشغيل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "hot air from device vents please help",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! البطارية خربانة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "tablet battery dies quickly",
+      "category": "battery_issues"
+    },
+    {
+      "text": "RAM not recognized",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? app keeps stopping can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Help! tablet freezes frequently urgent",
+      "category": "slow_performance"
+    },
+    {
+      "text": "من فضلك ساعدني التابلت بيعمل ثروتلينج ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "من فضلك ساعدني اللابتوب مش بيشحن عايز حل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "system won't start need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني حرارة اللابتوب عالية عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "ساعدني الجهاز ساخن جدا ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "Issue: apps keep crashing urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Can you help? SD card not working can you fix it?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "ساعدني البطء الشديد في الموبايل ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الشحن بطيء جدا",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! motherboard issue urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: البلوتوث مش بيعمل باير ايه الحل؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني الشحن بينزل فجأة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: حرارة التليفون عالية ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "البطارية خربانة ممكن تساعدني؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "PC temperature warning what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, system performance dropped can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: software not responding what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Problem: WiFi authentication failed urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الجهاز فيه عطل ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: slow loading times need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Help! laptop performance dropped need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: system won't charge properly what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: التليفون مش سريع زي الاول ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: laptop is extremely slow need help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: device is lagging can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! التطبيقات بطيئة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "مشكلة في الاقلاع",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني مشكلة اتصال محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "application not responding",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: تأخير في الصوت ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المشكلة: شاشة زرقا ممكن تساعدني؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! الصوت واطي عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني خطأ في البرنامج ضروري",
+      "category": "app_crashes"
+    },
+    {
+      "text": "WiFi authentication failed",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: التليفون بيسخن وانا بلعب ممكن تساعدني؟",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! مشاكل الصوت عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: cooling system not working please help",
+      "category": "overheating"
+    },
+    {
+      "text": "خطأ قراءة القرص ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, power supply failure what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! البطارية مش ماسكة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "my machine is burning hot",
+      "category": "overheating"
+    },
+    {
+      "text": "games crashing can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "battery not holding charge",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: الايثرنت مش شغال ضروري",
+      "category": "network_issues"
+    },
+    {
+      "text": "Issue: volume very low",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! volume very low what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? clicking sounds from machine urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: الصوت بيفصل ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: external drive not recognized urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "المشكلة: الشحن مش واصل ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "المشكلة: الصوت بيقطع ايه الحل؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "محتاج مساعدة! التطبيق مش بيفتح ضروري",
+      "category": "app_crashes"
+    },
+    {
+      "text": "audio delay",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! no space left please help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "system lag on system",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الشاشة بترعش",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: البايوس مش شغال عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: التليفون مش بيستجيب عايز حل",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: phone loses charge fast urgent",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! program has stopped working urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "منفذ الشحن فيه مشكلة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "من فضلك ساعدني مش قادر اوصل للملفات عايز حل",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: machine stuttering",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: cooling system not working need help",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! extreme heat from machine",
+      "category": "overheating"
+    },
+    {
+      "text": "محتاج مساعدة! الشاشة بتطفي لوحدها ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "الموبايل مش بيستجيب",
+      "category": "slow_performance"
+    },
+    {
+      "text": "mouse not working",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: البطارية بتخلص بسرعة ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Please help, no sound from speakers need help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, storage corrupted need help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? device malfunction urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "ساعدني فشل في التشغيل ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: audio is crackling can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "charging is very slow",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! ghost touch on screen need help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! keyboard not responding",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? slow loading times please help",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? WiFi authentication failed",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! no sound output can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! volume very low please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الوان الشاشة غلط ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة مساحة القرص ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! الدرايف مش ظاهر ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: PC stuck on logo please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: phone won't charge properly need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Please help, audio cutting out please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني خطأ هاردوير ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Issue: power drain on computer what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "ساعدني فشل في التشغيل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Help! WiFi drops frequently what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الجهاز مش بيشتغل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: component failure please help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "التطبيق بيقف",
+      "category": "app_crashes"
+    },
+    {
+      "text": "المشكلة: اشارة الواي فاي ضعيفة",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني مشاكل العرض ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? screen display issues what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "storage full warning",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: الحاسوب حار للمس ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: microphone not working please help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "I have a problem: Bluetooth not working need help",
+      "category": "network_issues"
+    },
+    {
+      "text": "عندي مشكلة: الجهاز واقف ايه الحل؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "cooling system not working",
+      "category": "overheating"
+    },
+    {
+      "text": "battery not holding charge urgent",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الجهاز مش راضي يفتح",
+      "category": "startup_failure"
+    },
+    {
+      "text": "machine is extremely slow",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني التابلت الشحن بينزل بسرعة ممكن تساعدني؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "speaker not working urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! laptop battery dies quickly please help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "البرامج بتفتح ببطء",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, Bluetooth won't pair",
+      "category": "network_issues"
+    },
+    {
+      "text": "من فضلك ساعدني البرنامج واقف ممكن تساعدني؟",
+      "category": "app_crashes"
+    },
+    {
+      "text": "مشكلة اتصال",
+      "category": "network_issues"
+    },
+    {
+      "text": "application freezes",
+      "category": "app_crashes"
+    },
+    {
+      "text": "من فضلك ساعدني الشاشة مكسورة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "المشكلة: رسالة خطأ لما بفتح التطبيق عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "لمسات وهمية على الشاشة ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, network adapter issues need help",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني مشكلة اتصال",
+      "category": "network_issues"
+    },
+    {
+      "text": "الشبكة مش مستقرة",
+      "category": "network_issues"
+    },
+    {
+      "text": "Problem: display not working what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Issue: microphone not working what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Issue: software not responding urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: SSD not detected please help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Can you help? PC crashes from overheating need help",
+      "category": "overheating"
+    },
+    {
+      "text": "Can you help? delayed response from phone what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "tablet won't turn on",
+      "category": "startup_failure"
+    },
+    {
+      "text": "app force closes",
+      "category": "app_crashes"
+    },
+    {
+      "text": "الشاشة سودا عايز حل",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! Bluetooth not working what should I do?",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! المتصفح بيهنج عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "من فضلك ساعدني الاداء بقى سيء ضروري",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Issue: memory card error can you fix it?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "phone running slowly",
+      "category": "slow_performance"
+    },
+    {
+      "text": "overheating problem on phone what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "power drain on tablet",
+      "category": "battery_issues"
+    },
+    {
+      "text": "الميموري كارد مش شغالة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Help! program has stopped working urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "مش قادر احفظ ملفات",
+      "category": "storage_issues"
+    },
+    {
+      "text": "محتاج مساعدة! ضرر فيزيائي ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "محتاج مساعدة! النت بطيء",
+      "category": "network_issues"
+    },
+    {
+      "text": "I have a problem: computer won't initialize urgent",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني محتاج اشحن كل شوية عايز حل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "I have a problem: screen frozen what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "محتاج مساعدة! تهنيج مستمر ايه الحل؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الباور مش كويس",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! software error please help",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Please help, app closes unexpectedly please help",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! التابلت سخونته زيادة ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "البرنامج توقف عن العمل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Issue: screen tearing please help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? battery life terrible need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "phone won't turn on",
+      "category": "startup_failure"
+    },
+    {
+      "text": "صوت طقطقة من الهاتف محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Can you help? endless reboot what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! مشاكل العرض ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: disk not showing up urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "المشكلة: الصوت مشوش",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? device is extremely slow what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Please help, device running slowly urgent",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! صوت طقطقة من التليفون ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Help! machine won't charge properly need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "ساعدني الماوس مش شغال محتاج مساعدة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "من فضلك ساعدني مشكلة تخزين عايز حل",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: hardware malfunction what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "لمسات وهمية على الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الكيبورد مش بيستجيب ايه الحل؟",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: app won't load urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "حرارة الحاسوب عالية",
+      "category": "overheating"
+    },
+    {
+      "text": "من فضلك ساعدني الدرايف مش ظاهر ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "PC feels hot to touch need help",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: computer hangs a lot can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الشحن مش واصل",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: no space left can you fix it?",
+      "category": "storage_issues"
+    },
+    {
+      "text": "WiFi drops frequently",
+      "category": "network_issues"
+    },
+    {
+      "text": "Problem: fan spinning very fast what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: SSD not detected",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Problem: blank screen what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: مفيش مساحة ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "عندي مشكلة: مش بيعمل بوت ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "مشكلة في تعريف الصوت محتاج مساعدة",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: DNS مش شغال محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "Help! power drain on phone need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: مشكلة في شحن الكمبيوتر ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Can you help? sound distorted urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! heat issues with my tablet please help",
+      "category": "overheating"
+    },
+    {
+      "text": "ساعدني المايك مش بياخد صوت ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "التهوية مش كويسة",
+      "category": "overheating"
+    },
+    {
+      "text": "Issue: PC performance degraded what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "فيه نقط ميتة في الشاشة ضروري",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: عمر البطارية قصير محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "منفذ الشحن فيه مشكلة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Issue: computer beeps but doesn't start can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: sound problems",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, fan is making loud noise on my system what should I do?",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! browser freezing what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "المشكلة: تحذير المساحة منخفضة ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "battery replacement needed",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Issue: machine stuck on logo need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني فيه نقط ميتة في الشاشة محتاج مساعدة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "I have a problem: extreme heat from laptop can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: touch not registering urgent",
+      "category": "screen_problems"
+    },
+    {
+      "text": "شاشة سودا عند التشغيل ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "programs take forever to open",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Can you help? device overheats when gaming need help",
+      "category": "overheating"
+    },
+    {
+      "text": "شاشة زرقا عايز حل",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "من فضلك ساعدني الابلكيشن بيقفل فجأة محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: المروحة صوتها عالي في الكمبيوتر ايه الحل؟",
+      "category": "overheating"
+    },
+    {
+      "text": "Help! storage running low need help",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Issue: app force closes what should I do?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "المشكلة: المايك مش شغال ضروري",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? blue screen error need help",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Problem: speaker not working what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "الابلكيشن بيقفل فجأة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "ساعدني عطل في التطبيق عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "محتاج مساعدة! الكمبيوتر واقف على اللوجو ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "phone stuck on logo",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Issue: CPU temperature too high urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "Issue: PC running slowly what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني أداء الحاسوب ضعيف محتاج مساعدة",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني المايك مش بياخد صوت",
+      "category": "audio_problems"
+    },
+    {
+      "text": "BIOS not loading",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Issue: failed to boot please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "البطارية بتروح بسرعة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "محتاج مساعدة! طقطقة في السماعة ممكن تساعدني؟",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, heat issues with my computer urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "ساعدني الموبايل بيصفر ومش بيفتح",
+      "category": "startup_failure"
+    },
+    {
+      "text": "عندي مشكلة: الشاحن مش شغال",
+      "category": "battery_issues"
+    },
+    {
+      "text": "منفذ الشحن فيه مشكلة محتاج مساعدة",
+      "category": "battery_issues"
+    },
+    {
+      "text": "اللاج كتير على الكمبيوتر",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: ethernet not connecting can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? audio cutting out",
+      "category": "audio_problems"
+    },
+    {
+      "text": "المشكلة: التطبيق مش بيستجيب",
+      "category": "app_crashes"
+    },
+    {
+      "text": "البرنامج مش بيستجيب",
+      "category": "app_crashes"
+    },
+    {
+      "text": "Can you help? machine running slowly can you fix it?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "sensor not working urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "sensor not working",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: الصوت مشوش عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: بطارية اللابتوب ضعيفة ايه الحل؟",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Issue: battery not lasting long urgent",
+      "category": "battery_issues"
+    },
+    {
+      "text": "عندي مشكلة: البرامج بتكرش",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: WiFi drops frequently urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "ساعدني الجهاز مش راضي يفتح محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "التطبيق مش بيفتح محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "I have a problem: can't connect to WiFi can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: الجهاز بيعمل ثروتلينج ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "الشاشة باهتة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Issue: audio static can you fix it?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Problem: Bluetooth not working can you fix it?",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? speaker buzzing noise",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Please help, power issues with computer what should I do?",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Help! heat issues with my tablet can you fix it?",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: computer battery dies quickly need help",
+      "category": "battery_issues"
+    },
+    {
+      "text": "Problem: BIOS not loading what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: app force closes can you fix it?",
+      "category": "app_crashes"
+    },
+    {
+      "text": "everything is slow on my phone",
+      "category": "slow_performance"
+    },
+    {
+      "text": "ساعدني جليتشات في الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "hard drive failing",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Help! system won't turn on please help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Help! hot air from PC vents urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "التابلت بيهنج كتير",
+      "category": "slow_performance"
+    },
+    {
+      "text": "Problem: DNS not responding need help",
+      "category": "network_issues"
+    },
+    {
+      "text": "الويندوز مش بيفتح عايز حل",
+      "category": "startup_failure"
+    },
+    {
+      "text": "ساعدني مشكلة اتصال ايه الحل؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "physical damage",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "not enough disk space urgent",
+      "category": "storage_issues"
+    },
+    {
+      "text": "الشاشة مش بتظهر حاجة ممكن تساعدني؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? WiFi signal weak urgent",
+      "category": "network_issues"
+    },
+    {
+      "text": "Can you help? stuck on boot screen what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "من فضلك ساعدني اللعبة مش بتشتغل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "phone feels hot to touch",
+      "category": "overheating"
+    },
+    {
+      "text": "Please help, black screen on startup need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "التطبيقات بتقفل لوحدها",
+      "category": "app_crashes"
+    },
+    {
+      "text": "machine performance dropped",
+      "category": "slow_performance"
+    },
+    {
+      "text": "الكمبيوتر ساخن اوي",
+      "category": "overheating"
+    },
+    {
+      "text": "microphone not working",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Can you help? blank screen what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "component failure urgent",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: الموبايل ميت ضروري",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Help! won't boot up what should I do?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Problem: PC heats up quickly need help",
+      "category": "overheating"
+    },
+    {
+      "text": "الوان الشاشة غلط",
+      "category": "screen_problems"
+    },
+    {
+      "text": "عندي مشكلة: مفيش صوت عايز حل",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: خطأ قراءة القرص",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, screen display issues what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الرام مش ظاهرة ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "Help! speaker crackling need help",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: الشاشة مش بتستجيب ضروري",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: low storage space",
+      "category": "storage_issues"
+    },
+    {
+      "text": "visual glitches",
+      "category": "screen_problems"
+    },
+    {
+      "text": "ساعدني المروحة مش شغالة كويس ضروري",
+      "category": "overheating"
+    },
+    {
+      "text": "Problem: laptop shuts down due to heat need help",
+      "category": "overheating"
+    },
+    {
+      "text": "I have a problem: screen goes black randomly please help",
+      "category": "screen_problems"
+    },
+    {
+      "text": "الحاسوب مش بيشتغل ايه الحل؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "منافذ USB مش شغالة",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "الحاسوب ميت",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Please help, software not responding urgent",
+      "category": "app_crashes"
+    },
+    {
+      "text": "عندي مشكلة: خطوط على الشاشة",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Can you help? headphones not detected urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "ساعدني مشاكل العرض ايه الحل؟",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الويندوز مش بيفتح ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "physical damage",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "صوت طقطقة من الحاسوب",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "my tablet is very slow",
+      "category": "slow_performance"
+    },
+    {
+      "text": "hard drive full",
+      "category": "storage_issues"
+    },
+    {
+      "text": "المشكلة: التطبيق مش بيفتح عايز حل",
+      "category": "app_crashes"
+    },
+    {
+      "text": "مش لاقي شبكات محتاج مساعدة",
+      "category": "network_issues"
+    },
+    {
+      "text": "مشكلة في شحن التابلت",
+      "category": "battery_issues"
+    },
+    {
+      "text": "قطعة هاردوير خربانة ضروري",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "I have a problem: sound problems urgent",
+      "category": "audio_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الصوت مشوش",
+      "category": "audio_problems"
+    },
+    {
+      "text": "computer beeps but doesn't start urgent",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Bluetooth not working",
+      "category": "network_issues"
+    },
+    {
+      "text": "اللاج كتير على اللابتوب ممكن تساعدني؟",
+      "category": "slow_performance"
+    },
+    {
+      "text": "محتاج مساعدة! الوايرلس فيه مشكلة",
+      "category": "network_issues"
+    },
+    {
+      "text": "المشكلة: التطبيقات بتقفل لوحدها محتاج مساعدة",
+      "category": "app_crashes"
+    },
+    {
+      "text": "كارت الشاشة بيسخن عايز حل",
+      "category": "overheating"
+    },
+    {
+      "text": "من فضلك ساعدني تمزق الصورة ضروري",
+      "category": "screen_problems"
+    },
+    {
+      "text": "I have a problem: speaker buzzing noise what should I do?",
+      "category": "audio_problems"
+    },
+    {
+      "text": "عندي مشكلة: مش قادر احفظ ملفات ممكن تساعدني؟",
+      "category": "storage_issues"
+    },
+    {
+      "text": "من فضلك ساعدني الهارد بيفشل ضروري",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Help! fan is making loud noise on my machine urgent",
+      "category": "overheating"
+    },
+    {
+      "text": "المشكلة: الشاشة سودا",
+      "category": "screen_problems"
+    },
+    {
+      "text": "من فضلك ساعدني الشاشة مكسورة ضروري",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Please help, machine stuttering what should I do?",
+      "category": "slow_performance"
+    },
+    {
+      "text": "can't get past boot can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "Please help, visual glitches what should I do?",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Problem: Windows not starting can you fix it?",
+      "category": "startup_failure"
+    },
+    {
+      "text": "محتاج مساعدة! التابلت مش بيفتح محتاج مساعدة",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المساحة خلصت",
+      "category": "storage_issues"
+    },
+    {
+      "text": "Please help, device dead need help",
+      "category": "startup_failure"
+    },
+    {
+      "text": "مش لاقي شبكات ممكن تساعدني؟",
+      "category": "network_issues"
+    },
+    {
+      "text": "محتاج مساعدة! المايك مش شغال",
+      "category": "audio_problems"
+    },
+    {
+      "text": "Help! touch screen not responding",
+      "category": "screen_problems"
+    },
+    {
+      "text": "Help! motherboard issue what should I do?",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "عندي مشكلة: بيفتح ويقفل لوحده ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "المشكلة: خطأ قراءة القرص محتاج مساعدة",
+      "category": "storage_issues"
+    },
+    {
+      "text": "software crashes on startup",
+      "category": "app_crashes"
+    },
+    {
+      "text": "buttons not responding",
+      "category": "hardware_failure"
+    },
+    {
+      "text": "المشكلة: مفيش صورة عند التشغيل ممكن تساعدني؟",
+      "category": "startup_failure"
+    },
+    {
+      "text": "I have a problem: phone turns off with battery left urgent",
+      "category": "battery_issues"
+    }
+  ]
+}
